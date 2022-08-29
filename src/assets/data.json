@@ -1,0 +1,257 @@
+[
+  {
+    "summary": "Full-stack web developer with a love for clean code. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently."
+  },
+  {
+    "user": {
+    "title": "Software Engineer",
+    "name": "Teshome Kurabachew",
+    "subtitle": "Full-Stack Web Developer",
+    "phone": "+251-911-017-684",
+    "address": "Addis Ababa, Ethiopia"
+    }
+  },
+  {
+    "about": [
+      "Hello, My name is Teshome Kurabachew, and I'm a Full-stack web developer with a love for clean code. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently.", " I entered the Microsoft Scholarship Program after graduation and graduated as a DevOps engineer. And received certificates in artificial intelligence, Azure Cloud Fundamentals, and Azure Cloud Administrators.", "I finished the Microverse program and graduated as a Full-stack web developer. I have a passion for clean code and I'm always looking to learn new technologies and languages.", "My fascination with technology began in high school when I was impressed by how software could solve problems and automate repetitive manual tasks. My ambition motivates me to self-learn everything from online resources to a masters degree in software engineering."
+    ]
+  },
+  {
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/teshome-kurabachew/",
+        "icon": "linkedin"
+      },
+      {
+        "name": "angelist",
+        "url": "https://angel.co/teshome-kurabachew",
+        "icon": "angellist"
+      },
+      {
+        "name": "github",
+        "url": "https://https://github.com/TesheMaximillan.com/",
+        "icon": "github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/TesheKura",
+        "icon": "twitter"
+      },
+      {
+        "name": "email",
+        "url": "dear.teshe@gmail.com",
+        "icon": "envelope"
+      }
+    ]
+  }, 
+  {
+    "experience": [
+        {
+          "id": "1",
+          "title": "Mentor (Volunteer)",
+          "company": "Microverse",
+          "dates": "March 2022 - Present",
+          "description": [
+            "Mentored junior web developers, providing technical support through code reviews.",
+            "Proposed improvements to code organization to improve code quality and overall performance.",
+            "Provided advice and tips on how to maintain motivation to maintain longevity in the program."
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Software Engineer, Senior Project Administrator, Contractual.",
+          "company": "OnTime Tech ICT Solution, Addis Ababa, Ethiopia",
+          "dates": "March 2021– February 2022"
+
+        }
+    ]
+  },
+  {
+    "education" : [
+        {
+          "id" : "1",
+          "school" : "HiLCoE School of Computer Science and Technology",
+          "degree" : "Masters in Software Engineering",
+          "field" : "Software Engineering",
+          "start_date" : "October, 2017",
+          "end_date" : "January, 2021",
+          "gpa" : "3.5",
+          "description" : "I spent three and a half years learning basic programming, SDL including requirements analysis and testing, I also mastered various data structures and algorithms using Java and JavaFX and developed several real-world projects."
+        },
+        {
+          "id" : "2",
+          "school" : "Microverse e-Learning Center",
+          "filed" : "Remote Full Stack Web Development Program, Full Time",
+          "start_date" : "February, 2022",
+          "end_date" : "August, 2022",
+          "description": [
+            "Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.",
+            "Developed skills in remote pair-programming using GitHub, industry-standard git-flow, and daily standups to communicate and collaborate with international remote developers."
+          ]
+        }
+    ]
+  },
+  {
+    "honors": [
+      {
+        "id": "1",
+        "title": "Android Developer with Java and Android Studio",
+        "school": "Google Africa Developer Scholarship together with Andela and Pluralsight",
+        "date": "2020 program",
+        "accomplishment": "Certificate of completion."
+      },
+      {
+        "id": "1",
+        "title": "Devops Engineer",
+        "school": "Microsoft 4afrika SkillsLab Program scholarship,",
+        "date": "2021 program",
+        "accomplishment": "Certicates in AI, Fundamentals of Azure Cloud, and Devops (Azure cloud administrator associate)."
+      }
+    ]
+  },
+  {
+    "skills": [
+      {
+        "name": "HTML", "level": "95%", "color": "#e34f26", "icon": "html5"
+      },
+      {
+        "name": "CSS", "level": "95%", "color": "#00bcd4", "icon": "css3"
+      },
+      {
+        "name": "JavaScript", "level": "95%", "color": "#f9a825", "icon": "js"
+      },
+      {
+        "name": "React JS", "level": "95%", "color": "#61dafb", "icon": "react"
+      },
+      {
+        "name": "Redux", "level": "95%", "color": "#764abc", "icon": "redux"
+      },
+      {
+        "name": "Node JS", "level": "95%", "color": "#6f42c1", "icon": "node-js"
+      },
+      {
+        "name": "Express JS", "level": "95%", "color": "#7c4dff", "icon": "express"
+      },
+      {
+        "name": "MongoDB", "level": "95%", "color": "#00a8ff", "icon": "mongodb"
+      },
+      {
+        "name": "MySQL", "level": "95%", "color": "#00a8ff", "icon": "mysql"
+      },
+      {
+        "name": "Azure", "level": "95%", "color": "#00a8ff", "icon": "azure"
+      },
+      {
+        "name": "Git", "level": "95%", "color": "#f9a825", "icon": "git"
+      },
+      {
+        "name": "GitHub", "level": "95%", "color": "#f9a825", "icon": "github"
+      },
+      {
+        "name": "GitLab", "level": "95%", "color": "#f9a825", "icon": "gitlab"
+      },
+      {
+        "name": "Heroku", "level": "95%", "color": "#f9a825", "icon": "heroku"
+      },
+      {
+        "name": "Netlify", "level": "95%", "color": "#f9a825", "icon": "netlify"
+      },
+      {
+        "name": "Firebase", "level": "95%", "color": "#f9a825", "icon": "firebase"
+      },
+      {
+        "name": "Ruby on Rails",
+        "level": "95%",
+        "color": "#f9a825",
+        "icon": "ruby-on-rails"
+      },
+      {
+        "name": "PostgreSQL", "level": "95%", "color": "#00a8ff", "icon": "postgresql"
+      },
+      {
+        "name": "SQLite", "level": "95%", "color": "#00a8ff", "icon": "sqlite"
+      },
+      {
+        "name": "C++ ", "level": "95%", "color": "#f9a825", "icon": "cpp"
+      },
+      {
+        "name": "C#", "level": "95%", "color": "#f9a825", "icon": "csharp"
+      },
+      {
+        "name": "Java", "level": "95%", "color": "#f9a825", "icon": "java"
+      },
+      {
+        "name": "Python", "level": "95%", "color": "#f9a825", "icon": "python"
+      },
+      { "name": "Remote Pair Programming", "level": "95%", "color": "#f9a825", "icon": "remote-pair-programming" },
+      {
+        "name": "Agile", "level": "95%", "color": "#f9a825", "icon": "agile"
+      },
+      {
+        "name": "Scrum", "level": "95%", "color": "#f9a825", "icon": "scrum"
+      },
+      {
+        "name": "RESTful API",
+        "level": "95%",
+        "color": "#f9a825",
+        "icon": "restful-api"
+      },
+      {
+        "name": "Devops", "level": "95%", "color": "#f9a825", "icon": "devops"
+      }
+    ]
+  },
+  {
+    "projects": [
+      {
+        "name": "Portfolio",
+        "url": "https://teshemaximillan.com/",
+        "description":
+          "In this portfolio you can get all of the information about me, including my contact information and the projects that I have made."
+      },
+      {
+        "name": "University Locator",
+        "url": "https://university-locator.herokuapp.com/",
+        "description":
+          "This is a web application that allows you to search for universities in the US."
+      },
+      {
+        "name": "Space Traveler's Hub",
+        "url": "https://space-travelers-app-ht.herokuapp.com/",
+        "description":
+          "In this project we are worked with the real live data from the SpaceX API. And in this project we build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions."
+      },
+      {
+        "name": "Bookstore App",
+        "url": "https://bookstoreteshe.herokuapp.com/",
+        "description":
+          "This is a web application that allows you to add a book and remove selected book also it displays a list of books."
+      },
+      {
+        "name": "Art ~ Blog Website",
+        "url": "https://teshemaximillan.github.io/ArtBlog/",
+        "description":
+          "In this capstone project, I created an Art blog website that encourages artists to post their designs and also helps them to participate in different events especially related to the art gallery, and also gives them a chance to present their works at the event show. However, my main intention is to use HTML5/CSS and JavaScript best practices and apply these concepts which is I learned from the Microverse Training - Module 1 to this amazing website."
+      },
+      {
+        "name": "Math Magicians",
+        "url": "https://teshemaximillan.github.io/Math-Magician/",
+        "description":
+          "Math magicians is a website (made with React) for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote."
+      },
+      {
+        "name": "ToDo List",
+        "url": "https://teshemaximillan.github.io/ToDoList/",
+        "description":
+          "In this project, I intended to use webpack and apply to ToDo List Project. and this project is store list into local storage, add, remove, edit and update list data"
+      },
+      {
+        "name": "Awesome-Books",
+        "url": "https://teshemaximillan.github.io/Awesome-Books-Modules/",
+        "description":
+          "In this project, I created a plain javascript project which is add a book title and it's author into localstorage and retrive the items to book list section."
+      }
+    ]
+  }
+]
