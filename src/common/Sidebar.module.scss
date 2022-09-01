@@ -160,7 +160,92 @@
   }
 
   &Main {
+    overflow: hidden;
+    outline: none;
+    width: 100%;
+    height: calc(100vh - 3rem);
 
+    &Content {
+      transform: translate3d(0, 0, 0);
+      padding: 24rem 0 5rem 0;
+    }
+
+    &Table {
+      padding: 1.5rem 0;
+      color: var(--warm-grey);
+
+      ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          font-size: 1.25rem;
+        }
+      }
+    }
+
+    &Divider {
+      background-color: var(--dark-grey);
+      height: 1px;
+      width: 100%;
+      opacity: 0.3;
+    }
+
+    &Softskills {
+      padding: 3rem 0 1.5rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      &Items {
+        width: 33.33333%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+
+        .circleProgress {
+          position: relative;
+          width: 65%;
+          margin: 0 auto 1.5rem;
+
+          svg {
+            overflow: hidden;
+            vertical-align: middle;
+          }
+
+          path:first-child {
+            stroke: var(--color-primary-dark);
+          }
+
+          path:last-child {
+            stroke: var(--color-secondary);
+          }
+
+          &Text {
+            position: absolute;
+            top: 50%;
+            padding: 0;
+            margin: 0;
+            transform: translate(-50%, -50%);
+            font-size: 1.1rem;
+            color: var(--warm-grey) !important;
+            left: 45% !important;
+
+            &::after {
+              content: '%';
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  [data-scrollbar] {
+    display: block;
+    position: relative;
   }
 
   &Footer {

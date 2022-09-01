@@ -3,7 +3,8 @@
 :root {
   --white: #fff;
   --light-grey: #fafafc;
-  --warm-grey: #8c8c8e;;
+  --warm-grey: #8c8c8e;
+  --dark-grey: #646466;
   --color-primary: #1e1e28;
   --color-primary-dark: #191923;
   --color-secondary: #FFC107;
@@ -101,6 +102,7 @@ h4 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.2rem;
+  color: var(--light-grey);
 
   @media (max-width: 768px) {
     font-size: 1rem;
@@ -124,8 +126,4 @@ h5 {
   @media (max-width: 560) {
     font-size: 0.6rem;
   }
-}
-.particles {
-  width: 100vh;
-  height: 100vh;
 }

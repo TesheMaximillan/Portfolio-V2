@@ -4,7 +4,7 @@
     "title": "Software Engineer",
     "name": "Teshome Kurabachew",
     "subtitle": "Full-Stack Web Developer",
-    "status": "Currently looking for a new opportunity",
+    "status": "Available for hire",
     "picture": "./images/Professional Photo (2).jpg",
     "phone": "+251-911-017-684",
     "address": "Addis Ababa, Ethiopia"
@@ -240,24 +240,6 @@
       "icon": "python"
     },
     {
-      "name": "Remote Pair Programming",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "remote-pair-programming"
-    },
-    {
-      "name": "Agile",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "agile"
-    },
-    {
-      "name": "Scrum",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "scrum"
-    },
-    {
       "name": "RESTful API",
       "level": "95%",
       "color": "#f9a825",
@@ -268,6 +250,29 @@
       "level": "95%",
       "color": "#f9a825",
       "icon": "devops"
+    }
+  ],
+  "softSkills": [
+    {
+      "id": "1",
+      "name": "Remote Pair Programming",
+      "level": 100,
+      "color": "#f9a825",
+      "icon": "remote-pair-programming"
+    },
+    {
+      "id": "2",
+      "name": "Agile",
+      "level": 95,
+      "color": "#f9a825",
+      "icon": "agile"
+    },
+    {
+      "id": "3",
+      "name": "Scrum",
+      "level": 90,
+      "color": "#f9a825",
+      "icon": "scrum"
     }
   ],
   "projects": [
