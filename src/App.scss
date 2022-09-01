@@ -2,11 +2,11 @@
 
 :root {
   --white: #fff;
-  --light-grey: #fafafa;
-  --grey-border: #e8e8e8;
-  --warm-grey: #888;
-  --color-primary: #97bf02;
-  --color-primary-dark: #6e9e01;
+  --light-grey: #fafafc;
+  --warm-grey: #8c8c8e;;
+  --color-primary: #1e1e28;
+  --color-primary-dark: #191923;
+  --color-secondary: #FFC107;
   --color-danger: #e80000;
 }
 
@@ -94,4 +94,9 @@ h3 {
   @media (max-width: 560) {
     font-size: 1rem;
   }
+}
+
+.particles {
+  width: 100vh;
+  height: 100vh;
 }

@@ -1,15 +1,17 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import style from './User.module.scss';
 
 const User = () => {
   const user = useSelector((state) => state.main.user);
-  const { name, title, summary } = user;
+  const { userContainer } = style;
+  const { name } = user;
 
   return (
     <>
-      <h2>{`Name: ${name}`}</h2>
-      <h3>{`Title: ${title}`}</h3>
-      <p>{`Summary: ${summary}`}</p>
+      <div className={userContainer}>
+        {name}
+      </div>
     </>
   );
 };
