@@ -96,6 +96,35 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 560) {
+    font-size: 0.8rem;
+  }
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 560) {
+    font-size: 0.6rem;
+  }
+}
 .particles {
   width: 100vh;
   height: 100vh;
