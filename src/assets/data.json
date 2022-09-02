@@ -102,154 +102,53 @@
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "95%",
-      "color": "#e34f26",
-      "icon": "html5"
-    },
-    {
-      "name": "CSS",
-      "level": "95%",
-      "color": "#00bcd4",
-      "icon": "css3"
-    },
-    {
+      "id": "1",
       "name": "JavaScript",
-      "level": "95%",
+      "level": 95,
       "color": "#f9a825",
       "icon": "js"
     },
     {
-      "name": "React JS",
-      "level": "95%",
+      "id": "2",
+      "name": "React JS and Redux",
+      "level": 95,
       "color": "#61dafb",
       "icon": "react"
     },
     {
-      "name": "Redux",
-      "level": "95%",
-      "color": "#764abc",
-      "icon": "redux"
-    },
-    {
-      "name": "Node JS",
-      "level": "95%",
-      "color": "#6f42c1",
-      "icon": "node-js"
-    },
-    {
-      "name": "Express JS",
-      "level": "95%",
-      "color": "#7c4dff",
-      "icon": "express"
-    },
-    {
-      "name": "MongoDB",
-      "level": "95%",
-      "color": "#00a8ff",
-      "icon": "mongodb"
-    },
-    {
-      "name": "MySQL",
-      "level": "95%",
-      "color": "#00a8ff",
-      "icon": "mysql"
-    },
-    {
-      "name": "Azure",
-      "level": "95%",
+      "id": "3",
+      "name": "Azure Devops",
+      "level": 90,
       "color": "#00a8ff",
       "icon": "azure"
     },
     {
-      "name": "Git",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "git"
-    },
-    {
-      "name": "GitHub",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "github"
-    },
-    {
-      "name": "GitLab",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "gitlab"
-    },
-    {
-      "name": "Heroku",
-      "level": "95%",
+      "id": "4",
+      "name": "Heroku, Netlify",
+      "level": 100,
       "color": "#f9a825",
       "icon": "heroku"
     },
     {
-      "name": "Netlify",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "netlify"
-    },
-    {
-      "name": "Firebase",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "firebase"
-    },
-    {
+      "id": "5",
       "name": "Ruby on Rails",
-      "level": "95%",
+      "level": 95,
       "color": "#f9a825",
       "icon": "ruby-on-rails"
     },
     {
-      "name": "PostgreSQL",
-      "level": "95%",
-      "color": "#00a8ff",
-      "icon": "postgresql"
-    },
-    {
-      "name": "SQLite",
-      "level": "95%",
-      "color": "#00a8ff",
-      "icon": "sqlite"
-    },
-    {
-      "name": "C++ ",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "cpp"
-    },
-    {
-      "name": "C#",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "csharp"
-    },
-    {
+      "id": "6",
       "name": "Java",
-      "level": "95%",
+      "level": 90,
       "color": "#f9a825",
       "icon": "java"
     },
     {
-      "name": "Python",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "python"
-    },
-    {
+      "id": "7",
       "name": "RESTful API",
-      "level": "95%",
+      "level": 95,
       "color": "#f9a825",
       "icon": "restful-api"
-    },
-    {
-      "name": "Devops",
-      "level": "95%",
-      "color": "#f9a825",
-      "icon": "devops"
     }
   ],
   "softSkills": [

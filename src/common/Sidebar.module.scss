@@ -183,6 +183,7 @@
           display: flex;
           justify-content: space-between;
           font-size: 1.25rem;
+          margin-bottom: 0.5rem;
         }
       }
     }
@@ -237,6 +238,47 @@
               content: '%';
               position: absolute;
             }
+          }
+        }
+      }
+    }
+
+    &Hardskills {
+      padding: 3rem 0 1.5rem 0;
+
+      &Items {
+        margin-bottom: 1.5rem;
+        position: relative;
+
+        &Heading {
+          display: flex;
+          justify-content: space-between;
+          margin: 0 !important;
+          padding: 0;
+        }
+
+        &Progress {
+          width: 100%;
+
+          path:first-child {
+            stroke: var(--color-primary-dark);
+          }
+
+          path:last-child {
+            stroke: var(--color-secondary);
+          }
+
+          .progressbarText {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            text-align: right;
+            left: 50%;
+            top: -0.6rem !important;
+            font-size: 1.1rem;
+            color: var(--warm-grey) !important;
           }
         }
       }
