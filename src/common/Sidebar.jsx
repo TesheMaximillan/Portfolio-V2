@@ -1,9 +1,10 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { FaExpand } from 'react-icons/fa';
+import { FaExpand, FaCloudDownloadAlt } from 'react-icons/fa';
 import styles from './Sidebar.module.scss';
 import avatar from '../assets/images/Professional Photo (2).jpg';
+import resume from '../assets/resume.pdf';
 
 const Sidebar = () => {
   const user = useSelector((state) => state.main.user);
@@ -23,6 +24,7 @@ const Sidebar = () => {
     sidebarMainTable, sidebarMainDivider, sidebarMainSoftskills, sidebarMainSoftskillsItems,
     circleProgress, circleProgressText, sidebarMainHardskills, sidebarMainHardskillsItems,
     sidebarMainHardskillsItemsHeading, sidebarMainHardskillsItemsProgress, progressbarText,
+    sidebarDownload,
   } = styles;
   return (
     <div className={sidebar}>
@@ -46,7 +48,7 @@ const Sidebar = () => {
             {subtitle}
           </div>
         </div>
-        <div className={sidebarMain} data-scrollbar="true">
+        <div className={sidebarMain} data-scrollbar="true" tabIndex={-1}>
           <div className={sidebarMainContent}>
             <div className={sidebarMainTable}>
               <ul>
@@ -108,10 +110,16 @@ const Sidebar = () => {
                 </div>
               ))}
             </div>
+            <div className={sidebarMainDivider} />
           </div>
         </div>
         <div className={sidebarFooter}>
-          Footer
+          <div className={sidebarDownload}>
+            <Link to={resume} download>
+              Download Resume
+              <FaCloudDownloadAlt />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

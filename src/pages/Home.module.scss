@@ -17,11 +17,11 @@
     position: relative;
     overflow: hidden;
     box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+  }
 
-    &Container {
-      width: relative;
-      display: flex;
-      flex-wrap: nowrap;
-    }
+  &Container {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
