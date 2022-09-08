@@ -1,12 +1,15 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { FaExpand, FaCloudDownloadAlt } from 'react-icons/fa';
+import {
+  FaExpand, FaCloudDownloadAlt, FaLinkedin, FaTwitterSquare, FaAngellist, FaGithub,
+} from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 import styles from './Sidebar.module.scss';
 import avatar from '../assets/images/Professional Photo (2).jpg';
-import resume from '../assets/resume.pdf';
 
-const Sidebar = () => {
+const Sidebar = ({ sidebarClass }) => {
   const user = useSelector((state) => state.main.user);
   const skills = useSelector((state) => state.main.softSkills);
   const hardSkills = useSelector((state) => state.main.skills);
@@ -24,17 +27,19 @@ const Sidebar = () => {
     sidebarMainTable, sidebarMainDivider, sidebarMainSoftskills, sidebarMainSoftskillsItems,
     circleProgress, circleProgressText, sidebarMainHardskills, sidebarMainHardskillsItems,
     sidebarMainHardskillsItemsHeading, sidebarMainHardskillsItemsProgress, progressbarText,
-    sidebarDownload,
+    sidebarDownload, sidebarSocial,
   } = styles;
+
+  const sidebarClassNames = `${sidebar} ${sidebarClass}`;
   return (
-    <div className={sidebar}>
+    <div className={sidebarClassNames}>
       <div className={Frame}>
         <div className={sidebarHeader}>
           <div className={sidebarAvatar}>
-            <Link to={avatar} className={sidebarAvatarCurtain}>
+            <button type="button" onClick={() => window.open(avatar)} className={sidebarAvatarCurtain}>
               <img src={avatar} alt="avatar" />
               <FaExpand className={imgIcon} />
-            </Link>
+            </button>
             <div className={lampLight}>
               <div className={lampLightAvailable} />
             </div>
@@ -46,6 +51,23 @@ const Sidebar = () => {
             {title}
             <br />
             {subtitle}
+          </div>
+          <div className={sidebarSocial}>
+            <button type="button" onClick={() => window.open('https://www.linkedin.com/in/teshome-kurabachew/')}>
+              <FaLinkedin />
+            </button>
+            <button type="button" onClick={() => window.open('https://angel.co/u/teshome-kurabachew')}>
+              <FaAngellist />
+            </button>
+            <button type="button" onClick={() => window.open('https://github.com/TesheMaximillan')}>
+              <FaGithub />
+            </button>
+            <button type="button" onClick={() => window.open('https://teshome.kurabachew@gmail.com')}>
+              <SiGmail />
+            </button>
+            <button type="button" onClick={() => window.open('https://twitter.com/TesheKura')}>
+              <FaTwitterSquare />
+            </button>
           </div>
         </div>
         <div className={sidebarMain} data-scrollbar="true" tabIndex={-1}>
@@ -115,7 +137,7 @@ const Sidebar = () => {
         </div>
         <div className={sidebarFooter}>
           <div className={sidebarDownload}>
-            <Link to={resume} download>
+            <Link to="/resume.pdf" target="_blank" download>
               Download Resume
               <FaCloudDownloadAlt />
             </Link>

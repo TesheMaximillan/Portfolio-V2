@@ -7,7 +7,7 @@
   z-index: 999;
   transition: all 0.5s ease-in-out;
   padding: 0 1.5rem;
-  overflow: hidden;
+  overflow: hidden;  
 
   &Frame {
     padding: 0 1.5rem;
@@ -20,7 +20,7 @@
     z-index: 99999;
     width: 100%;
     padding: 3rem;
-    height: 23.5rem;
+    height: 25rem;
     background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
     text-align: center;
     box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
@@ -160,9 +160,25 @@
       font-weight: 700;
     }
   }
-  
-  ::-webkit-scrollbar {
-    display: none;
+
+  &Social {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+
+    button {
+      border: none;
+      padding: 0;
+      background: none;
+      color: var(--warm-grey);
+      font-size: 2rem;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--light-grey);
+      }
+    }
   }
 
   &Main {
@@ -175,7 +191,7 @@
 
     &Content {
       transform: translate3d(0, 0, 0);
-      padding: 24rem 0 5rem;
+      padding: 25.5rem 0 5rem;
     }
     
     &Table {
@@ -325,6 +341,13 @@
         color: var(--color-secondary);
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    transform: translateX(-29rem);
   }
 }
 

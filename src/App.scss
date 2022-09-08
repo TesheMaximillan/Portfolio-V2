@@ -127,3 +127,12 @@ h5 {
     font-size: 0.6rem;
   }
 }
+
+  
+::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  transform: translateX(0);
+}

@@ -1,0 +1,7 @@
+.mainContainer {
+  position: relative;
+  height: calc(100vh - 3rem);
+  width: 100vw;
+  overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
+}
