@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import styles from './Sidebar.module.scss';
-import avatar from '../assets/images/Professional Photo (2).jpg';
+import avatar from '../assets/images/professional.jpg';
 
 const Sidebar = ({ sidebarClass }) => {
   const user = useSelector((state) => state.main.user);

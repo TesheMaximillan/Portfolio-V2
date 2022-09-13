@@ -1,12 +1,13 @@
 import React from 'react';
-import User from './User';
+import UserBg from './UserBg';
 import styles from './Main.module.scss';
 
 const Main = () => {
-  const { mainContainer } = styles;
+  const { mainContainer, mainCurtain } = styles;
   return (
     <div className={mainContainer}>
-      <User />
+      <div className={mainCurtain} />
+      <UserBg />
     </div>
   );
 };
