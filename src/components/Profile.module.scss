@@ -1,0 +1,32 @@
+.profileContainer {
+  margin: 3rem;
+
+  .profileParent {
+
+    .profileDetails {
+
+      .profileName {
+        color: var(--light-grey);
+
+        .primaryText {
+
+          .highlightedText {
+            color: var(--color-secondary);
+          }
+        }
+      }
+
+      .animatedText {
+        color: var(--color-success);
+        font-size: 2.5rem;
+        font-weight: 700;
+        display: flex;
+        align-items: flex-start;
+
+        .icon {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
