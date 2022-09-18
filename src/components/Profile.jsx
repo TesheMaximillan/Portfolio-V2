@@ -10,9 +10,13 @@ const Profile = () => {
     profileDetails,
     profileName,
     primaryText,
-    highlightedText,
     animatedText,
     icon,
+    tagline,
+    profileOptions,
+    profileImage,
+    profileImageBackground,
+    typeAnimation,
   } = styles;
   return (
     <div className={profileContainer}>
@@ -21,11 +25,7 @@ const Profile = () => {
           <div className={profileName}>
             <span className={primaryText}>
               <h1>
-                Hello, I&apos;m
-                <span className={highlightedText}>
-                  {' '}
-                  Teshome Kurabachew
-                </span>
+                Hello, I&apos;m Teshome Kurabachew
               </h1>
             </span>
           </div>
@@ -33,19 +33,33 @@ const Profile = () => {
             <AiOutlineCode className={icon} />
             <TypeAnimation
               sequence={[
-                "I'm a Full Stack Web Developer",
+                "I'm a Full-Stack Web Developer ✔️",
                 1000,
-                "I'm a Software Engineer",
+                "I'm a Software Engineer ✔️",
                 1000,
-                "I'm a DevOps Engineer",
+                "I'm a DevOps Engineer ✔️",
                 1000,
               ]}
               speed={50}
-              style={{ color: '#8c8c8e' }}
+              style={{ color: '#FFC107' }}
               wrapper="h2"
               repeat={Infinity}
+              className={typeAnimation}
             />
           </div>
+          <div className={tagline}>
+            <p>
+              In love with pair-programming, JavaScript, React/Redux, Ruby on Rails and remote work.
+            </p>
+          </div>
+          <div className={profileOptions}>
+            <button type="button" className="primaryButton">
+              Hire Me
+            </button>
+          </div>
+        </div>
+        <div className={profileImage}>
+          <div className={profileImageBackground} />
         </div>
       </div>
     </div>
