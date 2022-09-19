@@ -5,6 +5,7 @@ import { SiExpensify } from 'react-icons/si';
 import { CgWebsite } from 'react-icons/cg';
 import { MdCastForEducation, MdRecommend } from 'react-icons/md';
 import styles from './Navbar.module.scss';
+import About from './About';
 
 const Navbar = () => {
   const {
@@ -51,7 +52,7 @@ const Navbar = () => {
           Recomm...
         </button>
       </div>
-      <h1>{element}</h1>
+      { element === 'about' && <About />}
     </div>
   );
 };

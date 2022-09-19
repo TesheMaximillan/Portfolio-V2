@@ -1,9 +1,12 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { AiOutlineCode } from 'react-icons/ai';
+import { useSelector } from 'react-redux';
 import styles from './Profile.module.scss';
 
 const Profile = () => {
+  const user = useSelector((state) => state.main.user);
+
   const {
     profileContainer,
     profileParent,
@@ -46,10 +49,7 @@ const Profile = () => {
             />
           </div>
           <div className={tagline}>
-            <p>
-              In love with pair-programming, JavaScript, React/Redux, Ruby on
-              Rails and remote work.
-            </p>
+            <p>{user.summary}</p>
           </div>
           <div className={profileOptions}>
             <button type="button" className="primaryButton">

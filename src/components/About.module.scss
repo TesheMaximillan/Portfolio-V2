@@ -1,0 +1,64 @@
+.aboutt {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5rem;
+  width: 100%;
+
+  padding: 1rem 3rem;
+  color: var(--warm-grey);
+
+  &Btn {
+    display: none;
+  }
+
+  &Container {
+    background-color: var(--color-primary-dark);
+    color: var(--light-grey);
+    font-size: 1.4rem;
+    padding: 3rem;
+
+    &Tools {
+      margin-left: 5rem;
+
+      p::before {
+        content: '✔️ '
+      }
+    }
+  }
+
+  &Text {
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1200px) {
+  .aboutt {
+    &Btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+      background-color: var(--color-secondary-dark);
+      border: none;
+      border-radius: 0.2rem;
+      padding: 1rem 0;
+      color: var(--white);
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 1.4rem;
+    }
+
+    &Container {
+      max-height: 30rem;
+      overflow: hidden;
+    }
+
+    .btnLess {
+      max-height: 100%;
+    }
+
+    .btnMore {
+      max-height: 30rem;
+    }
+  }
+}

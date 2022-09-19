@@ -10,11 +10,13 @@
   .profileParent {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     .profileDetails {
       display: flex;
       flex-direction: column;
-      margin: 1.4rem 0 2.4rem 0;
+      width: 70%;
+      margin-bottom: 2.4rem;
 
       .profileName {
         color: var(--light-grey);
@@ -26,7 +28,6 @@
       font-family: 'Courier New', Courier, monospace;
       font-weight: 700;
       display: flex;
-      width: 70%;
       align-items: flex-start;
       background-color: var(--color-primary-dark);
       padding: 2rem 2rem 1rem 2rem;
@@ -40,6 +41,7 @@
   .tagline {
     color: var(--warm-grey);
     margin: 1.2rem 0;
+    text-align: justify;
   }
 
   .profileImage {
@@ -77,14 +79,16 @@
     justify-content: center;
 
     .profileDetails {
-      margin: 1.4rem 0 2.4rem 0;
-      align-items: center;
-      justify-content: center;
       text-align: center;
+      width: 100%;
 
       .animatedText {
         width: 100%;
         padding: 1rem 1rem 0 1rem;
+      }
+
+      .tagline {
+        width: 100%;
       }
     }
 

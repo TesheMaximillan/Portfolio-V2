@@ -10,10 +10,25 @@
     "address": "Addis Ababa, Ethiopia"
   },
   "about": [
-    "Hello, My name is Teshome Kurabachew, and I'm a Full-stack web developer with a love for clean code. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently.",
-    " I entered the Microsoft Scholarship Program after graduation and graduated as a DevOps engineer. And received certificates in artificial intelligence, Azure Cloud Fundamentals, and Azure Cloud Administrators.",
-    "I finished the Microverse program and graduated as a Full-stack web developer. I have a passion for clean code and I'm always looking to learn new technologies and languages.",
-    "My fascination with technology began in high school when I was impressed by how software could solve problems and automate repetitive manual tasks. My ambition motivates me to self-learn everything from online resources to a masters degree in software engineering."
+    {
+      "id": 1,
+      "text": "Hello, My name is Teshome Kurabachew, and I have a Master's degree in software engineering. In my thesis project, I developed Images to Braille translation system, and I used Python, an OCR engine, and the Flask Framework as a tool."
+    },
+
+    {
+      "id": 2,
+      "text": "I entered the Microsoft Scholarship Program after graduation and graduated as a DevOps engineer. And received certificates in artificial intelligence, Azure Cloud Fundamentals, and Azure Cloud Administrators."
+    },
+
+    {
+      "id": 3,
+      "text": "I joined Microverse, a remote software development program that teaches programming through pair programming, and got the necessary hard and soft skills to be a successful full-stack developer. Throughout my learning path I developed so many projects in Ruby, Ruby on Rails, React JS with Redux, JavaScript, SCSS and so many technologies."
+    },
+
+    {
+      "id": 4,
+      "text": "My fascination with technology began in high school when I was impressed by how software could solve problems and automate repetitive manual tasks. My ambition motivates me to self-learn everything from online resources to a master's degree in software engineering."
+    }
   ],
   "social": [
     {
@@ -100,6 +115,15 @@
       "accomplishment": "Certicates in AI, Fundamentals of Azure Cloud, and Devops (Azure cloud administrator associate)."
     }
   ],
+  "tools": {
+    "frontend": "JavaScript, React, Redux, CSS Preprocessors",
+    "backend": " Ruby on Rails, MySQL, SQL Server, MongoDB",
+    "methods": "Git, GitHub, Azure DevOps, UML, Heroku, Netlify, Mobile/Responsive Development, RSpec, TDD, Chrome Dev Tools, Postman, Redux",
+    "languages": "Ruby, JavaScript, HTML, CSS, SQL, C#, Java, Python, C++",
+    "systems": "Windows, Linux, Mac OS",
+    "professional": "Remote Pair-Programming, Teamwork, Mentoring",
+    "others": "Soft skills, UX/UI design with Adobe XD, Software Development process with Visual Paradigm, Agile Methodology, Scrum, Kanban, and Waterfall."
+  },
   "skills": [
     {
       "id": "1",
