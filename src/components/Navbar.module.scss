@@ -1,0 +1,113 @@
+.nav {
+  background-color: var(--color-primary-dark);
+  // border-radius: 0.5rem;
+  // margin: 0 3rem;
+  padding: 3rem;
+
+  &Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  &Btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary-dark);
+    background-color: var(--warm-grey);
+    font-weight: 700;
+    font-family: inherit;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    width: 15rem;
+    max-width: 15rem;
+    border: none;
+    border-bottom: 2px solid var(--color-secondary-dark);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+
+    .btnIcon {
+      margin-right: 1rem;
+      font-size: 1.8rem;
+    }
+
+    &Active {
+      background-color: var(--color-secondary-dark);
+      color: var(--white);
+    }
+
+    &::after {
+      display: block;
+      position: absolute;
+      content: '.';
+      margin: auto;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      color: transparent;
+      visibility: none;
+      opacity: 0;
+      background-color: var(--color-secondary-dark);
+      transition: all 0.5s ease-in-out;
+    }
+
+    &:hover {
+      color: var(--white);
+      background-color: transparent;
+    }
+
+    &:hover::after {
+      height: 100%;
+      visibility: visible;
+      opacity: 0.3;
+      z-index: 1;
+    }
+
+    &:active {
+      transform: translateY(2px) scale(1.02);
+
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    display: flex;
+
+    &Container {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 1.5rem;
+
+      .navBtn {
+        margin: 0.1rem 0;
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .nav {
+    padding-left: 0;
+
+    &Container {
+      margin-bottom: 1rem;
+
+      .navBtn {
+        max-width: 4rem;
+        color: transparent;
+    
+        .btnIcon {
+          opacity: 1;
+          color: var(--white);
+        }
+      }    
+    }
+  }
+}

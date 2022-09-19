@@ -24,9 +24,7 @@ const Profile = () => {
         <div className={profileDetails}>
           <div className={profileName}>
             <span className={primaryText}>
-              <h1>
-                Hello, I&apos;m Teshome Kurabachew
-              </h1>
+              <h1>Hello, I&apos;m Teshome Kurabachew</h1>
             </span>
           </div>
           <div className={animatedText}>
@@ -49,7 +47,8 @@ const Profile = () => {
           </div>
           <div className={tagline}>
             <p>
-              In love with pair-programming, JavaScript, React/Redux, Ruby on Rails and remote work.
+              In love with pair-programming, JavaScript, React/Redux, Ruby on
+              Rails and remote work.
             </p>
           </div>
           <div className={profileOptions}>
