@@ -6,10 +6,11 @@ import { CgWebsite } from 'react-icons/cg';
 import { MdCastForEducation, MdRecommend } from 'react-icons/md';
 import styles from './Navbar.module.scss';
 import About from './About';
+import Projects from './Projects';
 
 const Navbar = () => {
   const {
-    nav, navContainer, navBtn, navBtnActive, btnIcon,
+    nav, navContainer, navBtn, navBtnActive, btnIcon, navMain,
   } = styles;
   const [element, setElement] = React.useState('about');
 
@@ -27,32 +28,71 @@ const Navbar = () => {
   return (
     <div className={nav}>
       <div className={navContainer}>
-        <button type="button" className={classname('about')} onClick={() => handlePage('about')}>
-          <span className={btnIcon}><ImProfile /></span>
+        <button
+          type="button"
+          className={classname('about')}
+          onClick={() => handlePage('about')}
+        >
+          <span className={btnIcon}>
+            <ImProfile />
+          </span>
           About
         </button>
-        <button type="button" className={classname('projects')} onClick={() => handlePage('projects')}>
-          <span className={btnIcon}><AiOutlineProject /></span>
+        <button
+          type="button"
+          className={classname('projects')}
+          onClick={() => handlePage('projects')}
+        >
+          <span className={btnIcon}>
+            <AiOutlineProject />
+          </span>
           Projects
         </button>
-        <button type="button" className={classname('experience')} onClick={() => handlePage('experience')}>
-          <span className={btnIcon}><SiExpensify /></span>
+        <button
+          type="button"
+          className={classname('experience')}
+          onClick={() => handlePage('experience')}
+        >
+          <span className={btnIcon}>
+            <SiExpensify />
+          </span>
           Experience
         </button>
-        <button type="button" className={classname('publication')} onClick={() => handlePage('publication')}>
-          <span className={btnIcon}><CgWebsite /></span>
+        <button
+          type="button"
+          className={classname('publication')}
+          onClick={() => handlePage('publication')}
+        >
+          <span className={btnIcon}>
+            <CgWebsite />
+          </span>
           Publications
         </button>
-        <button type="button" className={classname('education')} onClick={() => handlePage('education')}>
-          <span className={btnIcon}><MdCastForEducation /></span>
+        <button
+          type="button"
+          className={classname('education')}
+          onClick={() => handlePage('education')}
+        >
+          <span className={btnIcon}>
+            <MdCastForEducation />
+          </span>
           Education
         </button>
-        <button type="button" className={classname('recommendation')} onClick={() => handlePage('recommendation')}>
-          <span className={btnIcon}><MdRecommend /></span>
+        <button
+          type="button"
+          className={classname('recommendation')}
+          onClick={() => handlePage('recommendation')}
+        >
+          <span className={btnIcon}>
+            <MdRecommend />
+          </span>
           Recomm...
         </button>
       </div>
-      { element === 'about' && <About />}
+      <div className={navMain}>
+        {element === 'about' && <About />}
+        {element === 'projects' && <Projects />}
+      </div>
     </div>
   );
 };

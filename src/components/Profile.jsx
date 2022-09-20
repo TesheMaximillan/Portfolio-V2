@@ -34,7 +34,7 @@ const Profile = () => {
             <AiOutlineCode className={icon} />
             <TypeAnimation
               sequence={[
-                "I'm a Full-Stack Web Developer ✔️",
+                "I'm a Full-Stack Developer ✔️",
                 1000,
                 "I'm a Software Engineer ✔️",
                 1000,

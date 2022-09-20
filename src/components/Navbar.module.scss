@@ -1,7 +1,5 @@
 .nav {
   background-color: var(--color-primary-dark);
-  // border-radius: 0.5rem;
-  // margin: 0 3rem;
   padding: 3rem;
 
   &Container {
@@ -9,6 +7,15 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5rem;
+  }
+
+  &Main {
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 0.5rem;
+    width: 100%;  
+    padding: 1rem 3rem;
+    color: var(--warm-grey);  
   }
 
   &Btn {
@@ -78,16 +85,21 @@
 @media (max-width: 1200px) {
   .nav {
     display: flex;
+    align-items: flex-start;
 
     &Container {
       flex-direction: column;
       align-items: flex-start;
       margin-right: 1.5rem;
+    }
 
-      .navBtn {
-        margin: 0.1rem 0;
-        justify-content: flex-start;
-      }
+    &Main {
+      width: calc(100% - 15rem);
+    }
+
+    &Btn {
+      margin: 0.1rem 0;
+      justify-content: flex-start;
     }
   }
 }
@@ -98,16 +110,20 @@
 
     &Container {
       margin-bottom: 1rem;
-
-      .navBtn {
-        max-width: 4rem;
-        color: transparent;
-    
-        .btnIcon {
-          opacity: 1;
-          color: var(--white);
-        }
-      }    
     }
+
+    &Main {
+      width: calc(100% - 4rem);
+    }
+
+    &Btn {
+      max-width: 4rem;
+      color: transparent;
+  
+      .btnIcon {
+        opacity: 1;
+        color: var(--white);
+      }
+    }    
   }
 }

@@ -170,3 +170,47 @@ h5 {
     transform: translateY(2px);
   }
 }
+
+.slick-dots {
+  bottom: 0;
+  margin-bottom: -1rem;
+
+  li {
+
+    button {
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background:none;
+      background: var(--color-secondary-dark);
+      border: none;
+      outline: none;
+      margin: 0 0.5rem;
+      transition: all 0.3s ease-in-out;
+
+      &::before {
+        content: '';
+      }
+
+      &:hover {
+        background: var(--color-secondary);
+      }
+    }
+  }
+
+  .slick-active {
+    button {
+      background: var(--color-success);
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+  }
+}
+
+.slick-arrow {
+
+  &::before {
+    font-size: 2rem;
+    color: var(--color-secondary);
+  }
+}
