@@ -6,6 +6,7 @@ import Slider from 'react-slick';
 import Card from '../common/Card';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import styles from './Projects.module.scss';
 
 const Projects = ({ modalRef }) => {
   const projects = useSelector((state) => state.main.projects);
@@ -61,8 +62,10 @@ const Projects = ({ modalRef }) => {
     ],
   };
 
+  const { projectsContainer } = styles;
+
   return (
-    <div>
+    <div className={projectsContainer}>
       <h2>Projects</h2>
       <Slider {...settings}>
         {projects.map((project) => (

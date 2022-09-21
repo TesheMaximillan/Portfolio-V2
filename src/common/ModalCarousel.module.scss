@@ -1,0 +1,45 @@
+.slider {
+
+  &Wrapper {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 95%;
+    height: 60vh;
+  }
+
+  &Main {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  }
+
+  &Thumbnail {
+    margin-top: 1rem;
+  }
+
+  &Sub {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+
+    img {
+      width: 90%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  }
+}

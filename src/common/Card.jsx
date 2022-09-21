@@ -15,7 +15,7 @@ const Card = ({ project, modalRef }) => {
   return (
     <div className={card} onClick={() => modalRef.current.handleModal(project)}>
       <div className={cardHeader}>
-        <img src={project.screenshots[0]} alt="project" />
+        <img src={project.screenshots[0].image} alt="project" />
       </div>
       <div className={cardMain}>
         <h3>{project.name}</h3>
