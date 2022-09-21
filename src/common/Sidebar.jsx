@@ -7,7 +7,6 @@ import {
 } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import styles from './Sidebar.module.scss';
-import avatar from '../assets/images/professional.jpg';
 
 const Sidebar = ({ sidebarClass }) => {
   const user = useSelector((state) => state.main.user);
@@ -15,7 +14,7 @@ const Sidebar = ({ sidebarClass }) => {
   const hardSkills = useSelector((state) => state.main.skills);
 
   const {
-    name, title, subtitle, status, phone, address,
+    name, title, subtitle, status, phone, address, picture,
   } = user;
 
   const circleStroke = (value) => 292.273 - (292.273 * value) / 100;
@@ -36,8 +35,8 @@ const Sidebar = ({ sidebarClass }) => {
       <div className={Frame}>
         <div className={sidebarHeader}>
           <div className={sidebarAvatar}>
-            <button type="button" onClick={() => window.open(avatar)} className={sidebarAvatarCurtain}>
-              <img src={avatar} alt="avatar" />
+            <button type="button" onClick={() => window.open(picture)} className={sidebarAvatarCurtain}>
+              <img src={picture} alt="avatar" />
               <FaExpand className={imgIcon} />
             </button>
             <div className={lampLight}>

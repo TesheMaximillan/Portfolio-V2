@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { ImProfile } from 'react-icons/im';
 import { AiOutlineProject } from 'react-icons/ai';
@@ -8,7 +9,7 @@ import styles from './Navbar.module.scss';
 import About from './About';
 import Projects from './Projects';
 
-const Navbar = () => {
+const Navbar = ({ modalRef }) => {
   const {
     nav, navContainer, navBtn, navBtnActive, btnIcon, navMain,
   } = styles;
@@ -91,7 +92,7 @@ const Navbar = () => {
       </div>
       <div className={navMain}>
         {element === 'about' && <About />}
-        {element === 'projects' && <Projects />}
+        {element === 'projects' && <Projects modalRef={modalRef} />}
       </div>
     </div>
   );

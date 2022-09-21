@@ -1,0 +1,54 @@
+.modal {
+
+  &Wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+  }
+
+  &Backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(32, 32, 42, 0.9);
+    z-index: 99999;
+  }
+
+  &Content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 99.2rem;
+    width: 90%;
+    background-color: var(--color-primary-dark);
+    border-radius: 0.5rem;
+    box-shadow: rgba(255, 255, 255, 0.09) 0px 3px 12px;    
+    z-index: 999999;
+    overflow-y: auto;
+    height: 95vh;
+    padding: 2rem;
+  }
+
+  &Close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-secondary-dark);
+    cursor: pointer;
+    z-index: 9999999;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: var(--color-danger);
+      transform: scale(1.1);
+    }
+  }
+}

@@ -5,7 +5,7 @@
     "name": "Teshome Kurabachew",
     "subtitle": "Full-Stack Web Developer",
     "status": "Available for hire",
-    "picture": "./images/Professional Photo (2).jpg",
+    "picture": "https://user-images.githubusercontent.com/51437483/191380749-7b08ed98-be0c-460f-b83a-2f9a43fcc4a6.jpg",
     "phone": "+251-911-017-684",
     "address": "Addis Ababa, Ethiopia"
   },
@@ -200,44 +200,90 @@
   ],
   "projects": [
     {
-      "name": "Portfolio",
-      "url": "https://teshemaximillan.com/",
-      "description": "In this portfolio you can get all of the information about me, including my contact information and the projects that I have made."
+      "id": 1,
+      "name": " Trekker",
+      "repository": "https://github.com/dewslyse/trekker-front-end",
+      "live": "https://mv-trekker.netlify.app/",
+      "description": "Book your next adventure 🚢 using the Trekker app. Trekker offers a selection of the best adventure destinations around the globe 🌍 Built with: React, Redux, Ruby on Rails.",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/51437483/191364170-6b856f52-1c3e-4512-b5ff-d2727b4d28de.png",
+        "https://raw.githubusercontent.com/dewslyse/trekker-front-end/dev/screenshot.png",
+        "https://user-images.githubusercontent.com/51437483/191362193-de84f83b-acbe-4237-94b8-613aa7c7c752.png",
+        "https://user-images.githubusercontent.com/51437483/191362612-3a59c9b3-f09c-401b-b110-81b4ffa18e79.png"
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "Ruby on Rails",
+        "SCSS",
+        "JavaScript",
+        "Git",
+        "GitHub",
+        "Netlify"
+      ]
     },
     {
-      "name": "University Locator",
-      "url": "https://university-locator.herokuapp.com/",
-      "description": "This is a web application that allows you to search for universities in the US."
+      "id": 2,
+      "name": "Favourite Meals",
+      "repository": "https://github.com/AminaBuhari/Favourite-meal",
+      "live": "https://teshemaximillan.github.io/webpack-test/",
+      "description": "A web app that allows users to search for their favourite meals. The app is built with JavaScript and uses the MealDB API to fetch the data. The app is deployed on GitHub pages.",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png",
+        "https://user-images.githubusercontent.com/66526480/163671568-6b7bf95b-5f1a-4669-8c27-b9dc06e4b27c.PNG",
+        "https://user-images.githubusercontent.com/66526480/163671569-dc049546-16a1-4a03-92a4-e060a5d43f09.PNG"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Webpack",
+        "SCSS",
+        "Git",
+        "GitHub",
+        "GitHub Pages"
+      ]
     },
     {
-      "name": "Space Traveler's Hub",
-      "url": "https://space-travelers-app-ht.herokuapp.com/",
-      "description": "In this project we are worked with the real live data from the SpaceX API. And in this project we build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions."
+      "id": 3,
+      "name": "Space Travelers' Hub",
+      "repository": "https://github.com/TesheMaximillan/Space-Travelere-s-Hub",
+      "live": "https://space-travelers-app-ht.herokuapp.com/myprofiles",
+      "description": "In this project we are worked with the real live data from the SpaceX API. And in this project we build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/51437483/191376476-8fa693bf-7a34-4428-b411-08b15b8d1daf.png",
+        "https://user-images.githubusercontent.com/51437483/168374076-8658bdc0-9b9b-4efd-90fb-984cbf34587a.JPG",
+        "https://user-images.githubusercontent.com/51437483/168374064-b61e298c-7c93-4849-a3b9-ced1d0e8311a.JPG",
+        "https://user-images.githubusercontent.com/51437483/168374037-0b43e096-f111-43d7-b1b1-a9f54f753341.JPG"
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "SCSS",
+        "Git",
+        "GitHub",
+        "Heroku"
+      ]
     },
     {
-      "name": "Bookstore App",
-      "url": "https://bookstoreteshe.herokuapp.com/",
-      "description": "This is a web application that allows you to add a book and remove selected book also it displays a list of books."
-    },
-    {
-      "name": "Art ~ Blog Website",
-      "url": "https://teshemaximillan.github.io/ArtBlog/",
-      "description": "In this capstone project, I created an Art blog website that encourages artists to post their designs and also helps them to participate in different events especially related to the art gallery, and also gives them a chance to present their works at the event show. However, my main intention is to use HTML5/CSS and JavaScript best practices and apply these concepts which is I learned from the Microverse Training - Module 1 to this amazing website."
-    },
-    {
-      "name": "Math Magicians",
-      "url": "https://teshemaximillan.github.io/Math-Magician/",
-      "description": "Math magicians is a website (made with React) for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote."
-    },
-    {
-      "name": "ToDo List",
-      "url": "https://teshemaximillan.github.io/ToDoList/",
-      "description": "In this project, I intended to use webpack and apply to ToDo List Project. and this project is store list into local storage, add, remove, edit and update list data"
-    },
-    {
-      "name": "Awesome-Books",
-      "url": "https://teshemaximillan.github.io/Awesome-Books-Modules/",
-      "description": "In this project, I created a plain javascript project which is add a book title and it's author into localstorage and retrive the items to book list section."
+      "id": 4,
+      "name": "Art Blog App",
+      "repository": "https://github.com/TesheMaximillan/ArtBlog",
+      "live": "https://teshemaximillan.github.io/ArtBlog/",
+      "description": " An Art blog website that encourages artists to post their designs and also helps them to participate in different events especially related to the art gallery, and also gives them a chance to present their works at the event show. However, my main intention is to use HTML5/CSS and JavaScript best practices and apply these concepts which is I learned from the Microverse Training - Module 1 to this amazing website.",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/51437483/191378370-8365642c-e12a-434d-bde7-0e4c361c123d.png",
+        "https://user-images.githubusercontent.com/51437483/191378794-530934e6-e765-4272-ad76-a033ea7326e2.png",
+        "https://user-images.githubusercontent.com/51437483/191379185-c61a0ee9-79f1-4d48-9d6d-8de4f3f88062.png",
+        "https://user-images.githubusercontent.com/51437483/191379383-7712d49f-0d4a-445d-8622-3680de98ae8c.png"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "GitHub",
+        "GitHub Pages"
+      ]
     }
   ]
 }
