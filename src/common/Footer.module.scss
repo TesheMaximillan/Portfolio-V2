@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--color-primary);
+  color: var(--light-grey);
+  padding: 2rem;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+
+  &Icon {
+    width: 98%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .icon {
+      font-size: 3rem;
+      color: var(--color-secondary-dark);
+      margin-right: 1rem;
+    }
+  }
+
+  &Text {
+    font-weight: 700;
+    color: var(--light-grey);
+    padding: 1rem;
+    letter-spacing: 1.8px;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+
+    span {
+      color: var(--color-danger);
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+  }
+}
