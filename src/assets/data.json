@@ -73,7 +73,12 @@
       "id": "2",
       "title": "Software Engineer, Senior Project Administrator, Contractual.",
       "company": "OnTime Tech ICT Solution, Addis Ababa, Ethiopia",
-      "dates": "March 2021– February 2022"
+      "dates": "March 2021 – February 2022",
+      "description": [
+        "Developed a web application for a local company to manage their projects and employees.",
+        "Implemented a project management system that allows the company to manage their projects and employees.",
+        "Implemented a system that allows the company to manage their employees' attendance and leave requests."
+      ]
     }
   ],
   "education": [

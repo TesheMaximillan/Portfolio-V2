@@ -8,6 +8,7 @@ import { MdCastForEducation, MdRecommend } from 'react-icons/md';
 import styles from './Navbar.module.scss';
 import About from './About';
 import Projects from './Projects';
+import Experience from './Experience';
 
 const Navbar = ({ modalRef }) => {
   const {
@@ -93,6 +94,7 @@ const Navbar = ({ modalRef }) => {
       <div className={navMain}>
         {element === 'about' && <About />}
         {element === 'projects' && <Projects modalRef={modalRef} />}
+        {element === 'experience' && <Experience />}
       </div>
     </div>
   );

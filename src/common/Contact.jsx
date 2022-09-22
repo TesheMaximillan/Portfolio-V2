@@ -10,7 +10,7 @@ const Contact = () => {
 
   const { name, email, message } = contact;
   const {
-    form, formInput, formButton, container, title, formIcon,
+    form, formInput, formButton, container, title, formIcon, textareaIcon,
   } = styles;
 
   const handleChange = (e) => {
@@ -33,7 +33,7 @@ const Contact = () => {
           <input type="email" name="email" value={email} onChange={handleChange} placeholder="Email" required />
         </div>
         <div className={formInput}>
-          <span className={formIcon}>📝</span>
+          <span className={`${formIcon} ${textareaIcon}`}>📝</span>
           <textarea name="message" value={message} onChange={handleChange} placeholder="Message" required />
         </div>
         <button className={formButton} type="submit">Send</button>
