@@ -170,17 +170,17 @@ h5 {
   }
 }
 
-.slick-active {
-  button {
-    background: var(--color-success);
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-}
-
 .slick-dots {
   bottom: 0;
   margin-bottom: -3rem;
+
+  .slick-active {
+    button {
+      background: var(--color-success);
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+  }
 
   li {
     button {
