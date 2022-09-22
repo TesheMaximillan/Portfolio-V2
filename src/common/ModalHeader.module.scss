@@ -1,0 +1,37 @@
+.modalHeader {
+
+  &Title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.5rem;
+  }
+
+  &Technologies {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: var(--color-primary-dark);
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    span {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--light-grey);
+      border: 1px solid var(--color-secondary-dark);
+      border-radius: 2rem;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "user": {
+    "summary": "Full-stack web developer with a love for clean code. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently.",
+    "title": "Software Engineer",
+    "name": "Teshome Kurabachew",
+    "subtitle": "Full-Stack Web Developer",
+    "status": "Available for hire",
+    "picture": "https://user-images.githubusercontent.com/51437483/191380749-7b08ed98-be0c-460f-b83a-2f9a43fcc4a6.jpg",
+    "phone": "+251-911-017-684",
+    "address": "Addis Ababa, Ethiopia"
+  },
+  "about": [
+    {
+      "id": 1,
+      "text": "Hello, My name is Teshome Kurabachew, and I have a Master's degree in software engineering. In my thesis project, I developed Images to Braille translation system, and I used Python, an OCR engine, and the Flask Framework as a tool."
+    },
+
+    {
+      "id": 2,
+      "text": "I entered the Microsoft Scholarship Program after graduation and graduated as a DevOps engineer. And received certificates in artificial intelligence, Azure Cloud Fundamentals, and Azure Cloud Administrators."
+    },
+
+    {
+      "id": 3,
+      "text": "I joined Microverse, a remote software development program that teaches programming through pair programming, and got the necessary hard and soft skills to be a successful full-stack developer. Throughout my learning path I developed so many projects in Ruby, Ruby on Rails, React JS with Redux, JavaScript, SCSS and so many technologies."
+    },
+
+    {
+      "id": 4,
+      "text": "My fascination with technology began in high school when I was impressed by how software could solve problems and automate repetitive manual tasks. My ambition motivates me to self-learn everything from online resources to a master's degree in software engineering."
+    }
+  ],
+  "social": [
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/teshome-kurabachew/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "angelist",
+      "url": "https://angel.co/teshome-kurabachew",
+      "icon": "angellist"
+    },
+    {
+      "name": "github",
+      "url": "https://https://github.com/TesheMaximillan.com/",
+      "icon": "github"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/TesheKura",
+      "icon": "twitter"
+    },
+    {
+      "name": "email",
+      "url": "dear.teshe@gmail.com",
+      "icon": "envelope"
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "title": "Mentor (Volunteer)",
+      "company": "Microverse",
+      "dates": "March 2022 - Present",
+      "description": [
+        "Mentored junior web developers, providing technical support through code reviews.",
+        "Proposed improvements to code organization to improve code quality and overall performance.",
+        "Provided advice and tips on how to maintain motivation to maintain longevity in the program."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Software Engineer, Senior Project Administrator, Contractual.",
+      "company": "OnTime Tech ICT Solution, Addis Ababa, Ethiopia",
+      "dates": "March 2021– February 2022"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "school": "HiLCoE School of Computer Science and Technology",
+      "degree": "Masters in Software Engineering",
+      "field": "Software Engineering",
+      "start_date": "October, 2017",
+      "end_date": "January, 2021",
+      "gpa": "3.5",
+      "description": "I spent three and a half years learning basic programming, SDL including requirements analysis and testing, I also mastered various data structures and algorithms using Java and JavaFX and developed several real-world projects."
+    },
+    {
+      "id": "2",
+      "school": "Microverse e-Learning Center",
+      "filed": "Remote Full Stack Web Development Program, Full Time",
+      "start_date": "February, 2022",
+      "end_date": "August, 2022",
+      "description": [
+        "Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.",
+        "Developed skills in remote pair-programming using GitHub, industry-standard git-flow, and daily standups to communicate and collaborate with international remote developers."
+      ]
+    }
+  ],
+  "honors": [
+    {
+      "id": "1",
+      "title": "Android Developer with Java and Android Studio",
+      "school": "Google Africa Developer Scholarship together with Andela and Pluralsight",
+      "date": "2020 program",
+      "accomplishment": "Certificate of completion."
+    },
+    {
+      "id": "1",
+      "title": "Devops Engineer",
+      "school": "Microsoft 4afrika SkillsLab Program scholarship,",
+      "date": "2021 program",
+      "accomplishment": "Certicates in AI, Fundamentals of Azure Cloud, and Devops (Azure cloud administrator associate)."
+    }
+  ],
+  "tools": {
+    "frontend": "JavaScript, React, Redux, CSS Preprocessors",
+    "backend": " Ruby on Rails, MySQL, SQL Server, MongoDB",
+    "methods": "Git, GitHub, Azure DevOps, UML, Heroku, Netlify, Mobile/Responsive Development, RSpec, TDD, Chrome Dev Tools, Postman, Redux",
+    "languages": "Ruby, JavaScript, HTML, CSS, SQL, C#, Java, Python, C++",
+    "systems": "Windows, Linux, Mac OS",
+    "professional": "Remote Pair-Programming, Teamwork, Mentoring",
+    "others": "Soft skills, UX/UI design with Adobe XD, Software Development process with Visual Paradigm, Agile Methodology, Scrum, Kanban, and Waterfall."
+  },
+  "skills": [
+    {
+      "id": "1",
+      "name": "JavaScript",
+      "level": 95,
+      "color": "#f9a825",
+      "icon": "js"
+    },
+    {
+      "id": "2",
+      "name": "React JS and Redux",
+      "level": 95,
+      "color": "#61dafb",
+      "icon": "react"
+    },
+    {
+      "id": "3",
+      "name": "Azure Devops",
+      "level": 90,
+      "color": "#00a8ff",
+      "icon": "azure"
+    },
+    {
+      "id": "4",
+      "name": "Heroku, Netlify",
+      "level": 100,
+      "color": "#f9a825",
+      "icon": "heroku"
+    },
+    {
+      "id": "5",
+      "name": "Ruby on Rails",
+      "level": 95,
+      "color": "#f9a825",
+      "icon": "ruby-on-rails"
+    },
+    {
+      "id": "6",
+      "name": "Java",
+      "level": 90,
+      "color": "#f9a825",
+      "icon": "java"
+    },
+    {
+      "id": "7",
+      "name": "RESTful API",
+      "level": 95,
+      "color": "#f9a825",
+      "icon": "restful-api"
+    }
+  ],
+  "softSkills": [
+    {
+      "id": "1",
+      "name": "Remote Pair Programming",
+      "level": 100,
+      "color": "#f9a825",
+      "icon": "remote-pair-programming"
+    },
+    {
+      "id": "2",
+      "name": "Agile",
+      "level": 95,
+      "color": "#f9a825",
+      "icon": "agile"
+    },
+    {
+      "id": "3",
+      "name": "Scrum",
+      "level": 90,
+      "color": "#f9a825",
+      "icon": "scrum"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": " Trekker",
+      "repository": "https://github.com/dewslyse/trekker-front-end",
+      "live": "https://mv-trekker.netlify.app/",
+      "description": "Book your next adventure 🚢 using the Trekker app. Trekker offers a selection of the best adventure destinations around the globe 🌍 Built with: React, Redux, Ruby on Rails.",
+      "screenshots": [
+        {
+          "id": 1,
+          "image": "https://user-images.githubusercontent.com/51437483/191364170-6b856f52-1c3e-4512-b5ff-d2727b4d28de.png"
+        },
+        {
+          "id": 2,
+          "image": "https://raw.githubusercontent.com/dewslyse/trekker-front-end/dev/screenshot.png"
+        },
+        {
+          "id": 3,
+          "image": "https://user-images.githubusercontent.com/51437483/191362193-de84f83b-acbe-4237-94b8-613aa7c7c752.png"
+        },
+        {
+          "id": 4,
+          "image": "https://user-images.githubusercontent.com/51437483/191362612-3a59c9b3-f09c-401b-b110-81b4ffa18e79.png"
+        }
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "Ruby on Rails",
+        "SCSS",
+        "JavaScript",
+        "Git",
+        "GitHub",
+        "Netlify"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Favourite Meals",
+      "repository": "https://github.com/AminaBuhari/Favourite-meal",
+      "live": "https://teshemaximillan.github.io/webpack-test/",
+      "description": "A web app that allows users to search for their favourite meals. The app is built with JavaScript and uses the MealDB API to fetch the data. The app is deployed on GitHub pages.",
+      "screenshots": [
+        {
+          "id": 1,
+          "image": "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png"
+        },
+        {
+          "id": 2,
+          "image": "https://user-images.githubusercontent.com/66526480/163671568-6b7bf95b-5f1a-4669-8c27-b9dc06e4b27c.PNG"
+        },
+        {
+          "id": 3,
+          "image": "https://user-images.githubusercontent.com/66526480/163671569-dc049546-16a1-4a03-92a4-e060a5d43f09.PNG"
+        }        
+      ],
+      "technologies": [
+        "JavaScript",
+        "Webpack",
+        "SCSS",
+        "Git",
+        "GitHub",
+        "GitHub Pages"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Space Travelers' Hub",
+      "repository": "https://github.com/TesheMaximillan/Space-Travelere-s-Hub",
+      "live": "https://space-travelers-app-ht.herokuapp.com/myprofiles",
+      "description": "In this project we are worked with the real live data from the SpaceX API. And in this project we build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+      "screenshots": [
+        {
+          "id": 1,
+          "image": "https://user-images.githubusercontent.com/51437483/191376476-8fa693bf-7a34-4428-b411-08b15b8d1daf.png"
+        },
+        {
+          "id": 2,
+          "image": "https://user-images.githubusercontent.com/51437483/168374076-8658bdc0-9b9b-4efd-90fb-984cbf34587a.JPG"
+        },
+        {
+          "id": 3,
+          "image": "https://user-images.githubusercontent.com/51437483/168374064-b61e298c-7c93-4849-a3b9-ced1d0e8311a.JPG"
+        },
+        {
+          "id": 4,
+          "image": "https://user-images.githubusercontent.com/51437483/168374037-0b43e096-f111-43d7-b1b1-a9f54f753341.JPG"
+        }
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "SCSS",
+        "Git",
+        "GitHub",
+        "Heroku"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Art Blog App",
+      "repository": "https://github.com/TesheMaximillan/ArtBlog",
+      "live": "https://teshemaximillan.github.io/ArtBlog/",
+      "description": " An Art blog website that encourages artists to post their designs and also helps them to participate in different events especially related to the art gallery, and also gives them a chance to present their works at the event show. However, my main intention is to use HTML5/CSS and JavaScript best practices and apply these concepts which is I learned from the Microverse Training - Module 1 to this amazing website.",
+      "screenshots": [
+        {
+          "id": 1,
+          "image": "https://user-images.githubusercontent.com/51437483/191378370-8365642c-e12a-434d-bde7-0e4c361c123d.png"
+        },
+        {
+          "id": 2,
+          "image": "https://user-images.githubusercontent.com/51437483/191378794-530934e6-e765-4272-ad76-a033ea7326e2.png"
+        },
+        {
+          "id": 3,
+          "image": "https://user-images.githubusercontent.com/51437483/191379185-c61a0ee9-79f1-4d48-9d6d-8de4f3f88062.png"
+        },
+        {
+          "id": 4,
+          "image": "https://user-images.githubusercontent.com/51437483/191379383-7712d49f-0d4a-445d-8622-3680de98ae8c.png"
+        }
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "GitHub",
+        "GitHub Pages"
+      ]
+    }
+  ]
+}

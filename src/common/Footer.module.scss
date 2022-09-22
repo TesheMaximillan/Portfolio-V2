@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--color-primary-dark);
+  color: var(--light-grey);
+  width: 100%;
+  text-align: center;
+
+  &Icon {
+    width: 98%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 2rem;
+
+    .icon {
+      font-size: 3rem;
+      color: var(--color-secondary-dark);
+      margin-right: 1rem;
+    }
+  }
+
+  &Text {
+    background-color: var(--color-primary);
+    font-weight: 700;
+    color: var(--light-grey);
+    letter-spacing: 1.8px;
+    padding: 1rem 0;
+    span {
+      color: var(--color-danger);
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+  }
+}

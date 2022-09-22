@@ -1,0 +1,370 @@
+.sidebar {
+  background: var(--color-primary-2);
+  width: 29rem;
+  min-width: 29rem;
+  height: calc(100vh - 3rem);
+  position: relative;
+  z-index: 999;
+  transition: all 0.5s ease-in-out;
+  padding: 0 1.5rem;
+  overflow: hidden;  
+
+  &Frame {
+    padding: 0 1.5rem;
+  }
+
+  &Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    padding: 3rem;
+    height: 25rem;
+    background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
+    text-align: center;
+    box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+  }
+
+  &Avatar {
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 1.5rem;
+
+    &Curtain {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      outline: inherit;
+      transition: all 0.2s ease-in-out;
+      z-index: 0;
+
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        z-index: 0;
+      }
+
+      .imgIcon {
+        background: linear-gradient(159deg, rgba(45, 45, 58, 0.88) 0%, rgba(43, 43, 53, 0.88) 100%);
+        width: 3rem;
+        height: 3rem;
+        padding: 0.5rem;
+        text-align: center;
+        align-self: center;
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 3rem;
+        color: var(--light-grey);
+        border-radius: 50%;
+        opacity: 0;
+        z-index: 1;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+    .lampLight {
+      z-index: 2;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        right: 1px;
+        background: var(--light-grey);
+        height: 2.3rem;
+        width: 2.3rem;
+        border-radius: 50%;
+        animation: puls 1s infinite;
+      }
+
+      &Available {
+        position: absolute;
+        bottom: 0.3rem;
+        right: 0.5rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        background: var(--color-secondary);
+        border-radius: 50%;
+        z-index: 0;
+        transition: all 0.4s ease-in-out;
+
+        &::before {
+          content: '';
+          position: absolute;
+          height: 0.5rem;
+          width: 0.5rem;
+          right: -1.5rem;
+          top: 0.5rem;
+          opacity: 0;
+          background: var(--color-primary-dark);
+          pointer-events: none;
+          transform: translateX(2rem) rotate(45deg);
+          transition: all 0.4s ease-in-out;
+          z-index: 99;
+        }
+
+        &::after {
+          position: relative;
+          content: 'I am available for hire';
+          width: 11.5rem;
+          display: block;
+          padding: 0.5rem 1rem;
+          top: -1rem;
+          left: 2.8rem;
+          font-size: 1rem;
+          font-weight: 200;
+          color: var(--warm-grey);
+          box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+          background-color: var(--color-primary-dark);
+          opacity: 0;
+          pointer-events: none;
+          transform: translateX(2rem);
+          transition: all 0.4s ease-in-out;
+          text-align: left;
+        }
+
+        &:hover::after {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+  }
+
+  .profile {
+    margin-bottom: 1rem;
+
+    &Name {
+      color: var(--light-grey);
+      text-decoration: none;
+      transition: all 0.4s ease-in-out;
+    }
+
+    &SmText {
+      color: var(--warm-grey);
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+  }
+
+  &Social {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+
+    button {
+      border: none;
+      padding: 0;
+      background: none;
+      color: var(--warm-grey);
+      font-size: 2rem;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--light-grey);
+      }
+    }
+  }
+
+  &Main {
+    overflow-Y: scroll;
+    outline: none;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 3rem);
+
+    &Content {
+      transform: translate3d(0, 0, 0);
+      padding: 25.5rem 0 5rem;
+    }
+    
+    &Table {
+      padding: 1.5rem 0;
+      color: var(--warm-grey);
+
+      ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          font-size: 1.25rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
+    &Divider {
+      background-color: var(--dark-grey);
+      height: 1px;
+      width: 100%;
+      opacity: 0.3;
+    }
+
+    &Softskills {
+      padding: 3rem 0 1.5rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      &Items {
+        width: 33.33333%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+
+        .circleProgress {
+          position: relative;
+          width: 65%;
+          margin: 0 auto 1.5rem;
+
+          svg {
+            overflow: hidden;
+            vertical-align: middle;
+          }
+
+          path:first-child {
+            stroke: var(--color-primary-dark);
+          }
+
+          path:last-child {
+            stroke: var(--color-secondary);
+          }
+
+          &Text {
+            position: absolute;
+            top: 50%;
+            padding: 0;
+            margin: 0;
+            transform: translate(-50%, -50%);
+            font-size: 1.1rem;
+            color: var(--warm-grey) !important;
+            left: 45% !important;
+
+            &::after {
+              content: '%';
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+
+    &Hardskills {
+      padding: 3rem 0 1.5rem 0;
+
+      &Items {
+        margin-bottom: 1.5rem;
+        position: relative;
+
+        &Heading {
+          display: flex;
+          justify-content: space-between;
+          margin: 0 !important;
+          padding: 0;
+        }
+
+        &Progress {
+          width: 100%;
+
+          path:first-child {
+            stroke: var(--color-primary-dark);
+          }
+
+          path:last-child {
+            stroke: var(--color-secondary);
+          }
+
+          .progressbarText {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            text-align: right;
+            left: 50%;
+            top: -0.6rem !important;
+            font-size: 1.1rem;
+            color: var(--warm-grey) !important;
+          }
+        }
+      }
+    }
+  }
+
+  &Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.5rem;
+    height: 5rem;
+    background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  &Download {
+    width: 100%;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      color: var(--light-grey);
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.4s ease-in-out;
+  
+      &:hover {
+        color: var(--color-secondary);
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    position: absolute;
+    transform: translateX(-29rem);
+  }
+}
+
+@keyframes puls {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    opacity: 0.3;
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      opacity: 0;
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      opacity: 0.3;
+  }
+}

@@ -1,0 +1,110 @@
+.profileContainer {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: fit-content;
+  border-bottom: 0.2rem solid var(--color-secondary-dark);
+  clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 98%, 68% 100%, 32% 100%, 0 98%, 0% 43%, 0 0);
+
+  .profileParent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .profileDetails {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      margin-bottom: 2.4rem;
+
+      .profileName {
+        color: var(--light-grey);
+        
+        h1 {
+          letter-spacing: 0.5rem;
+        }
+      }
+    }
+
+    .animatedText {
+      color: var(--color-success);
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 700;
+      display: flex;
+      align-items: flex-start;
+      background-color: var(--color-primary-dark);
+      padding: 2rem 2rem 1rem 2rem;
+
+      .icon {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .tagline {
+    color: var(--warm-grey);
+    margin: 1.2rem 0;
+    text-align: justify;
+  }
+
+  .profileImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0 0 var(--color-secondary-dark);
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 10rem;
+
+    &Background {
+      height: 92%;
+      width: 92%;
+      background-image: url(../assets/images/professional.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      transition: all 0.5s ease-out;
+
+      &:hover {
+        transform: scale(1.07);
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+
+  .profileParent {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    .profileDetails {
+      text-align: center;
+      width: 100%;
+
+      .animatedText {
+        width: 100%;
+        padding: 1rem 1rem 0 1rem;
+      }
+
+      .tagline {
+        width: 100%;
+      }
+    }
+
+    .profileImage {
+      margin-bottom: 5rem;
+      width: 20rem;
+      height: 20rem;
+
+      &Background {
+        height: 92%;
+        width: 92%;
+      }
+    }
+  }
+}
