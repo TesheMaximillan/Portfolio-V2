@@ -13,9 +13,9 @@
 
     img {
       margin: 0 auto;
-      height: 60vh;
-      width: 100%;
-      object-fit: scale-down;
+      // height: 60vh;
+      width: 50vw;
+      object-fit: contain;
       border-radius: 0.5rem;
     }
   }
