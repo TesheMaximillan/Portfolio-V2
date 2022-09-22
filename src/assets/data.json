@@ -247,11 +247,15 @@
         },
         {
           "id": 2,
-          "image": "https://user-images.githubusercontent.com/66526480/163671568-6b7bf95b-5f1a-4669-8c27-b9dc06e4b27c.PNG"
+          "image": "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png"
         },
         {
           "id": 3,
-          "image": "https://user-images.githubusercontent.com/66526480/163671569-dc049546-16a1-4a03-92a4-e060a5d43f09.PNG"
+          "image": "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png"
+        },        
+        {
+          "id": 3,
+          "image": "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png"
         }        
       ],
       "technologies": [
