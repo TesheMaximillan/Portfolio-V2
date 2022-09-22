@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from './Contact.module.scss';
 
 const Contact = () => {
@@ -7,12 +7,6 @@ const Contact = () => {
     email: '',
     message: '',
   });
-
-  const inputRef = useRef(null);
-
-  useEffect(() => {
-    inputRef.current.focus();
-  }, []);
 
   const { name, email, message } = contact;
   const {
@@ -32,7 +26,7 @@ const Contact = () => {
       <form className={form} action="https://formspree.io/f/mbjwoorj" method="post">
         <div className={formInput}>
           <span className={formIcon}>👤</span>
-          <input ref={inputRef} type="text" name="name" value={name} onChange={handleChange} placeholder="Name" required />
+          <input type="text" name="name" value={name} onChange={handleChange} placeholder="Name" required />
         </div>
         <div className={formInput}>
           <span className={formIcon}>📧</span>
