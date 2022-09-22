@@ -12,7 +12,10 @@
     box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
 
     img {
+      margin: 0 auto;
+      height: 60vh;
       width: 100%;
+      object-fit: scale-down;
       border-radius: 0.5rem;
     }
   }
