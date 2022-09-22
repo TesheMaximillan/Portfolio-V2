@@ -40,6 +40,13 @@
         margin-right: 1rem;
       }
     }
+
+    @media (max-width: 550px) {
+      .animatedText {
+        height: 5rem;
+        text-align: start;
+      }
+    }
   }
 
   .tagline {
