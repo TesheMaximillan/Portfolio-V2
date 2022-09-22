@@ -1,0 +1,105 @@
+.container {
+  background-color: var(--color-primary-dark);
+  padding: 2rem;
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.2rem;
+    color: var(--light-grey);
+    margin: 1rem 0;
+  }
+
+  .form {
+    background-color: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+    &Icon {
+      font-size: 2rem;
+      text-align: center;
+      width: 5rem;
+    }
+
+    &Input {
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+
+      input {
+        width: 100%;
+        padding: 1.5rem 1rem;
+        border: none;
+        color: var(--light-grey);
+        font-family: inherit;
+        background-color: rgba(30, 30, 40, 0.5);
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        transition: all 0.5s ease-in-out;
+
+        &:focus {
+          outline: none;
+          background-color: rgba(30, 30, 40, 0.8);
+          transition: all 0.3s ease-in-out;
+
+          &::placeholder {
+            color: transparent;
+          }
+        }
+      }
+
+      textarea {
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        color: var(--light-grey);
+        font-family: inherit;
+        background-color: rgba(30, 30, 40, 0.5);
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        resize: none;
+        height: 20rem;
+
+        &:focus {
+          outline: none;
+          background-color: rgba(30, 30, 40, 0.8);
+          transition: all 0.3s ease-in-out;
+
+          &::placeholder {
+            color: transparent;
+          }
+        }
+      }
+    }
+
+    &Button {
+      width: 15rem;
+      padding: 1rem 0;
+      font-family: inherit;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-secondary-dark);
+      border: 2px solid var(--color-secondary-dark);
+      border-radius: 0.5rem;
+      background-color: var(--color-primary-dark);
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        background-color: var(--color-secondary-dark);
+        color: var(--color-primary-dark);
+        border: 2px solid var(--color-primary-dark);
+
+        &:active {
+          transform: scale(0.95);
+        }
+      }
+    }
+  }
+}

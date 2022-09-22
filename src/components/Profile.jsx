@@ -52,9 +52,11 @@ const Profile = () => {
             <p>{user.summary}</p>
           </div>
           <div className={profileOptions}>
-            <button type="button" className="primaryButton">
-              Hire Me
-            </button>
+            <a href="#contact">
+              <button type="button" className="primaryButton">
+                Hire Me
+              </button>
+            </a>
           </div>
         </div>
         <div className={profileImage}>

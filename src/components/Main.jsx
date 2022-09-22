@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../common/Contact';
 import Footer from '../common/Footer';
 import ProjectModal from '../common/ProjectModal';
 import styles from './Main.module.scss';
@@ -14,6 +15,7 @@ const Main = () => {
       <ProjectModal ref={modalRef} />
       <Profile />
       <Navbar modalRef={modalRef} />
+      <Contact />
       <Footer />
     </div>
   );
