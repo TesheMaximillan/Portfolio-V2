@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: fit-content;
   border-bottom: 0.2rem solid var(--color-secondary-dark);
   clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 98%, 68% 100%, 32% 100%, 0 98%, 0% 43%, 0 0);
 
@@ -20,7 +19,7 @@
 
       .profileName {
         color: var(--light-grey);
-        
+
         h1 {
           letter-spacing: 0.5rem;
         }
@@ -83,7 +82,6 @@
 }
 
 @media (max-width: 1440px) {
-
   .profileParent {
     flex-direction: column-reverse;
     align-items: center;

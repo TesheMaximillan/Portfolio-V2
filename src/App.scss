@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300;700&display=swap');
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --white: #fff;
   --light-grey: #fafafc;
@@ -8,8 +12,8 @@
   --color-primary: #1e1e28;
   --color-primary-2: rgb(32, 32, 42);
   --color-primary-dark: #191923;
-  --color-secondary: #FFC107;
-  --color-secondary-dark: #FFA000;
+  --color-secondary: #ffc107;
+  --color-secondary-dark: #ffa000;
   --color-danger: #e80000;
   --color-success: #00e800;
 }
@@ -130,11 +134,6 @@ h5 {
   }
 }
 
-  
-::-webkit-scrollbar {
-  display: none;
-}
-
 .active {
   transform: translateX(0);
 }
@@ -171,17 +170,24 @@ h5 {
   }
 }
 
+.slick-active {
+  button {
+    background: var(--color-success);
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
 .slick-dots {
   bottom: 0;
   margin-bottom: -3rem;
 
   li {
-
     button {
       width: 1rem;
       height: 1rem;
       border-radius: 50%;
-      background:none;
+      background: none;
       background: var(--color-secondary-dark);
       border: none;
       outline: none;
@@ -197,18 +203,9 @@ h5 {
       }
     }
   }
-
-  .slick-active {
-    button {
-      background: var(--color-success);
-      width: 1.25rem;
-      height: 1.25rem;
-    }
-  }
 }
 
 .slick-arrow {
-
   &::before {
     font-size: 2rem;
     color: var(--color-secondary);
