@@ -1,5 +1,4 @@
 .profileContainer {
-  margin: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,9 +6,16 @@
   clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 98%, 68% 100%, 32% 100%, 0 98%, 0% 43%, 0 0);
 
   .profileParent {
+    padding: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: linear-gradient(to right bottom,
+        rgba(25, 25, 35, 0.9),
+        rgba(30, 30, 40, 0.9)), url(../assets/images/background.jpg);
+    ;
+    background-size: cover;
+    background-position: center;
 
     .profileDetails {
       display: flex;
@@ -32,7 +38,6 @@
       font-weight: 700;
       display: flex;
       align-items: flex-start;
-      background-color: var(--color-primary-dark);
       padding: 2rem 2rem 1rem 2rem;
 
       .icon {
@@ -49,9 +54,65 @@
   }
 
   .tagline {
-    color: var(--warm-grey);
+    color: var(--light-grey);
     margin: 1.2rem 0;
     text-align: justify;
+  }
+
+  .profileOptions {
+    display: flex;
+    align-items: center;
+
+    .profileDownload {
+      margin-left: 2rem;
+      background: var(--color-secondary-dark);
+      color: var(--light-grey);
+      padding: .75rem 2rem;
+      border: none;
+      border-radius: 2px;
+      font-size: 1.6rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      display: flex;
+
+      a {
+        color: var(--light-grey);
+        margin-left: 1rem;
+        text-decoration: none;
+      }
+
+      &:hover {
+        border-left: 1rem solid var(--color-success);
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+      }
+
+      &:active {
+        transform: translateY(2px);
+      }
+    }
+  }
+
+  .profileSocial {
+    display: flex;
+    margin-top: 3rem;
+
+    button {
+      border: none;
+      padding: 0;
+      background: none;
+      color: var(--light-grey);
+      font-size: 2.5rem;
+      margin-right: 2rem;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--color-secondary);
+        transform: scale(1.2);
+      }
+    }
   }
 
   .profileImage {
