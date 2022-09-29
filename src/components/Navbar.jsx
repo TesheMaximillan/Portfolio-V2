@@ -14,7 +14,7 @@ const Navbar = ({ modalRef }) => {
   const {
     nav, navContainer, navBtn, navBtnActive, btnIcon, navMain,
   } = styles;
-  const [element, setElement] = React.useState('about');
+  const [element, setElement] = React.useState('projects');
 
   const handlePage = (type) => {
     setElement(type);
@@ -32,16 +32,6 @@ const Navbar = ({ modalRef }) => {
       <div className={navContainer}>
         <button
           type="button"
-          className={classname('about')}
-          onClick={() => handlePage('about')}
-        >
-          <span className={btnIcon}>
-            <ImProfile />
-          </span>
-          About
-        </button>
-        <button
-          type="button"
           className={classname('projects')}
           onClick={() => handlePage('projects')}
         >
@@ -49,6 +39,16 @@ const Navbar = ({ modalRef }) => {
             <AiOutlineProject />
           </span>
           Projects
+        </button>
+        <button
+          type="button"
+          className={classname('about')}
+          onClick={() => handlePage('about')}
+        >
+          <span className={btnIcon}>
+            <ImProfile />
+          </span>
+          About
         </button>
         <button
           type="button"
@@ -92,8 +92,8 @@ const Navbar = ({ modalRef }) => {
         </button>
       </div>
       <div className={navMain}>
-        {element === 'about' && <About />}
         {element === 'projects' && <Projects modalRef={modalRef} />}
+        {element === 'about' && <About />}
         {element === 'experience' && <Experience />}
       </div>
     </div>
