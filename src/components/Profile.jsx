@@ -30,7 +30,7 @@ const Profile = () => {
     downloadicon,
   } = styles;
   return (
-    <div className={profileContainer}>
+    <div className={profileContainer} id="top">
       <div className={profileParent}>
         <div className={profileDetails}>
           <div className={profileName}>
