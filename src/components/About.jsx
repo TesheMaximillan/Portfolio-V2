@@ -3,53 +3,64 @@ import { useSelector } from 'react-redux';
 import styles from './About.module.scss';
 
 const About = () => {
-  const [expand, setExpand] = React.useState('Expand');
   const about = useSelector((state) => state.main.about);
-  const tools = useSelector((state) => state.main.tools);
+  const skills = useSelector((state) => state.main.skills);
+
   const {
     aboutt,
     abouttContainer,
     abouttContainerText,
     abouttText,
-    abouttContainerTools,
-    btnMore,
-    btnLess,
-    abouttBtn,
+    abouttContainerSkills,
+    skill,
   } = styles;
 
-  const handleExpand = () => {
-    if (expand === 'Expand') {
-      setExpand('Collapse');
-    } else {
-      setExpand('Expand');
-    }
-  };
-
-  const btnClass = expand === 'Expand' ? `${abouttContainer} ${btnMore}` : `${abouttContainer} ${btnLess}`;
   return (
     <div className={aboutt}>
-      <h2>About</h2>
-      <div className={btnClass}>
-        <div className={abouttContainerText}>
-          {about.map((item) => (
-            <p className={abouttText} key={item.id}>
-              {item.text}
-            </p>
-          ))}
+      <div className={abouttContainer}>
+        <div className={abouttContainerSkills}>
+          <div className={skill}>
+            <h3>Languages</h3>
+            <div>
+              {skills.languages.map((lang) => (
+                <p key={lang.id}>{lang.name}</p>
+              ))}
+
+            </div>
+          </div>
+          <div className={skill}>
+            <h3>Frameworks</h3>
+            <div>
+              {skills.frameworks.map((framework) => (
+                <p key={framework.id}>{framework.name}</p>
+              ))}
+
+            </div>
+          </div>
+          <div className={skill}>
+            <h3>Tools</h3>
+            <div>
+              {skills.tools.map((tool) => (
+                <p key={tool.id}>{tool.name}</p>
+              ))}
+
+            </div>
+          </div>
+          <div className={skill}>
+            <h3>Soft Skills</h3>
+            <div>
+              {skills.softskills.map((softskill) => (
+                <p key={softskill.id}>{softskill.name}</p>
+              ))}
+
+            </div>
+          </div>
         </div>
-        <div className={abouttContainerTools}>
-          <p>{tools.frontend}</p>
-          <p>{tools.backend}</p>
-          <p>{tools.methods}</p>
-          <p>{tools.languages}</p>
-          <p>{tools.systems}</p>
-          <p>{tools.professional}</p>
-          <p>{tools.others}</p>
+        <div className={abouttContainerText}>
+          <h2>About</h2>
+          <p className={abouttText}>{about}</p>
         </div>
       </div>
-      <button type="button" className={abouttBtn} onClick={handleExpand}>
-        {expand}
-      </button>
     </div>
   );
 };

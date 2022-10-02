@@ -1,0 +1,12 @@
+.navbarContent {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 1rem 3rem;
+  color: var(--warm-grey);
+
+  @media (max-width: 1200px) {
+    margin-top: -18rem;
+  }
+}

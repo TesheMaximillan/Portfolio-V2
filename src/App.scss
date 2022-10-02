@@ -9,13 +9,13 @@
   --light-grey: #fafafc;
   --warm-grey: #8c8c8e;
   --dark-grey: #646466;
-  --color-primary: #1e1e28;
+  --color-primary: rgb(30, 30, 40);
   --color-primary-2: rgb(32, 32, 42);
-  --color-primary-dark: #191923;
+  --color-primary-dark: rgb(25, 25, 35);
   --color-secondary: #ffc107;
-  --color-secondary-dark: #ffa000;
-  --color-danger: #e80000;
-  --color-success: #00e800;
+  --color-secondary-dark: rgb(255, 160, 0);
+  --color-danger: rgb(232, 0, 0);
+  --color-success: rgb(0, 192, 0);
 }
 
 // ///////////////////////////// Global Reset

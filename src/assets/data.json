@@ -9,27 +9,7 @@
     "phone": "+251-911-017-684",
     "address": "Addis Ababa, Ethiopia"
   },
-  "about": [
-    {
-      "id": 1,
-      "text": "Hello, My name is Teshome Kurabachew, and I have a Master's degree in software engineering. In my thesis project, I developed Images to Braille translation system, and I used Python, an OCR engine, and the Flask Framework as a tool."
-    },
-
-    {
-      "id": 2,
-      "text": "I entered the Microsoft Scholarship Program after graduation and graduated as a DevOps engineer. And received certificates in artificial intelligence, Azure Cloud Fundamentals, and Azure Cloud Administrators."
-    },
-
-    {
-      "id": 3,
-      "text": "I joined Microverse, a remote software development program that teaches programming through pair programming, and got the necessary hard and soft skills to be a successful full-stack developer. Throughout my learning path I developed so many projects in Ruby, Ruby on Rails, React JS with Redux, JavaScript, SCSS and so many technologies."
-    },
-
-    {
-      "id": 4,
-      "text": "My fascination with technology began in high school when I was impressed by how software could solve problems and automate repetitive manual tasks. My ambition motivates me to self-learn everything from online resources to a master's degree in software engineering."
-    }
-  ],
+  "about": "Hello, My name is Teshome Kurabachew, and I have a Master's degree in software engineering. I entered the Microsoft Scholarship Program after graduation and graduated as a DevOps engineer. And received certificates in artificial intelligence, Azure Cloud Fundamentals, and Azure Cloud Administrators. I joined Microverse, a remote software development program that teaches programming through pair programming, and got the necessary hard and soft skills to be a successful full-stack developer. Throughout my learning path I developed so many projects in Ruby, Ruby on Rails, React JS with Redux, JavaScript, SCSS and so many technologies.",
   "social": [
     {
       "name": "linkedin",
@@ -129,80 +109,184 @@
     "professional": "Remote Pair-Programming, Teamwork, Mentoring",
     "others": "Soft skills, UX/UI design with Adobe XD, Software Development process with Visual Paradigm, Agile Methodology, Scrum, Kanban, and Waterfall."
   },
-  "skills": [
-    {
-      "id": "1",
-      "name": "JavaScript",
-      "level": 95,
-      "color": "#f9a825",
-      "icon": "js"
-    },
-    {
-      "id": "2",
-      "name": "React JS and Redux",
-      "level": 95,
-      "color": "#61dafb",
-      "icon": "react"
-    },
-    {
-      "id": "3",
-      "name": "Azure Devops",
-      "level": 90,
-      "color": "#00a8ff",
-      "icon": "azure"
-    },
-    {
-      "id": "4",
-      "name": "Heroku, Netlify",
-      "level": 100,
-      "color": "#f9a825",
-      "icon": "heroku"
-    },
-    {
-      "id": "5",
-      "name": "Ruby on Rails",
-      "level": 95,
-      "color": "#f9a825",
-      "icon": "ruby-on-rails"
-    },
-    {
-      "id": "6",
-      "name": "Java",
-      "level": 90,
-      "color": "#f9a825",
-      "icon": "java"
-    },
-    {
-      "id": "7",
-      "name": "RESTful API",
-      "level": 95,
-      "color": "#f9a825",
-      "icon": "restful-api"
-    }
-  ],
-  "softSkills": [
-    {
-      "id": "1",
-      "name": "Remote Pair Programming",
-      "level": 100,
-      "color": "#f9a825",
-      "icon": "remote-pair-programming"
-    },
-    {
-      "id": "2",
-      "name": "Agile",
-      "level": 95,
-      "color": "#f9a825",
-      "icon": "agile"
-    },
-    {
-      "id": "3",
-      "name": "Scrum",
-      "level": 90,
-      "color": "#f9a825",
-      "icon": "scrum"
-    }
-  ],
+  "skills": {
+    "languages": [
+      {
+        "id": 1,
+        "name": "Ruby"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript"
+      },
+      {
+        "id": 3,
+        "name": "HTML"
+      },
+      {
+        "id": 4,
+        "name": "CSS"
+      },
+      {
+        "id": 5,
+        "name": "SQL"
+      },
+      {
+        "id": 6,
+        "name": "C#"
+      },
+      {
+        "id": 7,
+        "name": "Java"
+      },
+      {
+        "id": 8,
+        "name": "Python"
+      },
+      {
+        "id": 9,
+        "name": "C++"
+      }
+    ],
+    "frameworks": [
+      {
+        "id": 1,
+        "name": "Ruby on Rails"
+      },
+      {
+        "id": 2,
+        "name": "React"
+      },
+      {
+        "id": 3,
+        "name": "Redux"
+      },
+      {
+        "id": 4,
+        "name": "MySQL"
+      },
+      {
+        "id": 5,
+        "name": "SQL Server"
+      },
+      {
+        "id": 6,
+        "name": "MongoDB"
+      },
+      {
+        "id": 7,
+        "name": "Postgresql"
+      },
+      {
+        "id": 8,
+        "name": "Rspec"
+      },
+      {
+        "id": 9,
+        "name": "Jest"
+      },
+      {
+        "id": 10,
+        "name": "Enzyme"
+      },
+      {
+        "id": 11,
+        "name": "Capibara"
+      },
+      {
+        "id": 12,
+        "name": "Selenium"
+      }
+    ],
+    "tools": [
+      {
+        "id": 1,
+        "name": "Git"
+      },
+      {
+        "id": 2,
+        "name": "GitHub"
+      },
+      {
+        "id": 3,
+        "name": "Azure DevOps"
+      },
+      {
+        "id": 4,
+        "name": "UML"
+      },
+      {
+        "id": 5,
+        "name": "Heroku"
+      },
+      {
+        "id": 6,
+        "name": "Netlify"
+      },
+      {
+        "id": 7,
+        "name": "Mobile/Responsive Development"
+      },
+      {
+        "id": 8,
+        "name": "RSpec"
+      },
+      {
+        "id": 9,
+        "name": "TDD"
+      },
+      {
+        "id": 10,
+        "name": "Chrome Dev Tools"
+      },
+      {
+        "id": 11,
+        "name": "Postman"
+      },
+      {
+        "id": 12,
+        "name": "GitLab"
+      }
+    ],
+    "softskills": [
+      {
+        "id": 1,
+        "name": "Teamwork"
+      },
+      {
+        "id": 2,
+        "name": "Communication"
+      },
+      {
+        "id": 3,
+        "name": "Problem Solving"
+      },
+      {
+        "id": 4,
+        "name": "Time Management"
+      },
+      {
+        "id": 5,
+        "name": "Adaptability"
+      },
+      {
+        "id": 6,
+        "name": "Creativity"
+      },
+      {
+        "id": 7,
+        "name": "Leadership"
+      },
+      {
+        "id": 8,
+        "name": "Mentoring"
+      },
+      {
+        "id": 9,
+        "name": "Remote Pair-Programming"
+      }
+    ]
+  },
   "projects": [
     {
       "id": 1,
@@ -213,11 +297,11 @@
       "screenshots": [
         {
           "id": 1,
-          "image": "https://user-images.githubusercontent.com/51437483/191364170-6b856f52-1c3e-4512-b5ff-d2727b4d28de.png"
+          "image": "https://raw.githubusercontent.com/dewslyse/trekker-front-end/dev/screenshot.png"
         },
         {
           "id": 2,
-          "image": "https://raw.githubusercontent.com/dewslyse/trekker-front-end/dev/screenshot.png"
+          "image": "https://user-images.githubusercontent.com/51437483/191364170-6b856f52-1c3e-4512-b5ff-d2727b4d28de.png"
         },
         {
           "id": 3,
@@ -257,9 +341,10 @@
         {
           "id": 3,
           "image": "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png"
-        },        
+        },
+        
         {
-          "id": 3,
+          "id": 4,
           "image": "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png"
         }        
       ],
@@ -281,11 +366,11 @@
       "screenshots": [
         {
           "id": 1,
-          "image": "https://user-images.githubusercontent.com/51437483/191376476-8fa693bf-7a34-4428-b411-08b15b8d1daf.png"
+          "image": "https://user-images.githubusercontent.com/51437483/168374076-8658bdc0-9b9b-4efd-90fb-984cbf34587a.JPG"
         },
         {
           "id": 2,
-          "image": "https://user-images.githubusercontent.com/51437483/168374076-8658bdc0-9b9b-4efd-90fb-984cbf34587a.JPG"
+          "image": "https://user-images.githubusercontent.com/51437483/191376476-8fa693bf-7a34-4428-b411-08b15b8d1daf.png"
         },
         {
           "id": 3,
@@ -315,11 +400,11 @@
       "screenshots": [
         {
           "id": 1,
-          "image": "https://user-images.githubusercontent.com/51437483/191378370-8365642c-e12a-434d-bde7-0e4c361c123d.png"
+          "image": "https://user-images.githubusercontent.com/51437483/191378794-530934e6-e765-4272-ad76-a033ea7326e2.png"
         },
         {
           "id": 2,
-          "image": "https://user-images.githubusercontent.com/51437483/191378794-530934e6-e765-4272-ad76-a033ea7326e2.png"
+          "image": "https://user-images.githubusercontent.com/51437483/191378370-8365642c-e12a-434d-bde7-0e4c361c123d.png"
         },
         {
           "id": 3,

@@ -1,57 +1,114 @@
 .aboutt {
-  &Btn {
-    display: none;
-  }
-
   &Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: var(--color-primary-dark);
     color: var(--light-grey);
     font-size: 1.4rem;
-    padding: 3rem;
+    padding: 2rem;
     margin-bottom: 1rem;
 
-    &Tools {
-      margin-left: 5rem;
+    @media (max-width: 1200px) {
+      flex-direction: column-reverse;
+    }
 
-      p::before {
-        content: '✔️ ';
+    &Text {
+      margin-bottom: 2rem;
+      width: 48%;
+      text-align: justify;
+      align-self: center;
+      background-color: var(--color-primary);
+      height: 100%;
+      padding: 2rem;
+      border-radius: 0.5rem;
+
+      @media (max-width: 1100px) {
+        width: 60%;
+      }
+
+      @media (max-width: 768px) {
+        width: 90%;
+      }
+    }
+
+    &Skills {
+      width: 48%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .skill {
+        width: 50%;
+        padding: 1rem;
+
+        div {
+          display: flex;
+          flex-wrap: wrap;
+
+          p {
+            margin-left: 1rem;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-style: italic;
+            border: 2px double var(--color-secondary-dark);
+          }
+        }
+
+        h3 {
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+          padding-bottom: 0.5rem;
+        }
+
+        &:nth-child(1) {
+          background-image: linear-gradient(to right bottom,rgba(25, 25, 35, 0.8), rgba(0, 192, 0, 0.9)), url(../assets/images/languages.PNG);
+          background-size: cover;
+        }
+
+        &:nth-child(2) {
+          background-image: linear-gradient(to right bottom,rgba(255, 160, 0, 0.9), rgba(25, 25, 35, 0.8)), url(../assets/images/frameworks.png);
+          background-size: cover;
+          background-position: center;
+        }
+
+        &:nth-child(3) {
+          background-image: linear-gradient(to right bottom,rgba(232, 0, 0, 0.9), rgba(25, 25, 35, 0.8)), url(../assets/images/tools.PNG);
+          background-size: cover;
+          background-position: center;
+        }
+
+        &:nth-child(4) {
+          background-image: linear-gradient(to right bottom,rgba(0, 192, 0, 0.9), rgba(25, 25, 35, 0.8)), url(../assets/images/softskills.PNG);
+          background-size: cover;
+          background-position: center;
+        }
+
+        @media (max-width: 550px) {
+          width: 100%;
+
+          &:not(:last-child) {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+
+      @media (max-width: 1100px) {
+        width: 90%;
+        align-self: center;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
       }
     }
   }
 
-  &Text {
-    margin-bottom: 2rem;
-    text-align: justify;
-  }
-}
 
-@media (max-width: 1200px) {
-  .aboutt {
-    &Btn {
-      display: block;
-      width: 100%;
-      margin-bottom: 1rem;
-      background-color: var(--color-secondary-dark);
-      border: none;
-      border-radius: 0.2rem;
-      padding: 1rem 0;
-      color: var(--white);
-      font-family: inherit;
-      font-weight: 700;
-      font-size: 1.4rem;
-    }
-
-    &Container {
-      max-height: 30rem;
-      overflow: hidden;
-    }
-
-    .btnLess {
-      max-height: 100%;
-    }
-
-    .btnMore {
-      max-height: 30rem;
+  @media (max-width: 1200px) {
+    h2 {
+      text-align: center;
     }
   }
 }

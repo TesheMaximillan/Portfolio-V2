@@ -73,7 +73,7 @@ const Profile = () => {
             </div>
 
           </div>
-          <div className={profileSocial}>
+          <div className={profileSocial} id="navbarContent">
             <button type="button" onClick={() => window.open('https://www.linkedin.com/in/teshome-kurabachew/')}>
               <FaLinkedin />
             </button>

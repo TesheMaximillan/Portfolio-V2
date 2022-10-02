@@ -1,3 +1,9 @@
 .projectsContainer {
   padding-bottom: 3rem;
+
+  @media (max-width: 1200px) {
+    h2 {
+      text-align: center;
+    }
+  }
 }
