@@ -41,11 +41,16 @@
       .skill {
         width: 50%;
         padding: 1rem;
+        background-color: var(--color-primary);
+        border: 5px solid var(--color-primary-dark);
 
         div {
           display: flex;
           flex-wrap: wrap;
-
+          background-color: var(--color-primary-dark);
+          padding: 1rem;
+          border-radius: 0.5rem;
+          
           p {
             margin-left: 1rem;
             margin-top: 1rem;
@@ -58,31 +63,9 @@
 
         h3 {
           font-size: 1.8rem;
-          margin-bottom: 1rem;
-          padding-bottom: 0.5rem;
-        }
-
-        &:nth-child(1) {
-          background-image: linear-gradient(to right bottom,rgba(25, 25, 35, 0.8), rgba(0, 192, 0, 0.9)), url(../assets/images/languages.PNG);
-          background-size: cover;
-        }
-
-        &:nth-child(2) {
-          background-image: linear-gradient(to right bottom,rgba(255, 160, 0, 0.9), rgba(25, 25, 35, 0.8)), url(../assets/images/frameworks.png);
-          background-size: cover;
-          background-position: center;
-        }
-
-        &:nth-child(3) {
-          background-image: linear-gradient(to right bottom,rgba(232, 0, 0, 0.9), rgba(25, 25, 35, 0.8)), url(../assets/images/tools.PNG);
-          background-size: cover;
-          background-position: center;
-        }
-
-        &:nth-child(4) {
-          background-image: linear-gradient(to right bottom,rgba(0, 192, 0, 0.9), rgba(25, 25, 35, 0.8)), url(../assets/images/softskills.PNG);
-          background-size: cover;
-          background-position: center;
+          padding: 1rem;
+          background-color: var(--color-primary-dark);
+          border-radius: 0.5rem;
         }
 
         @media (max-width: 550px) {

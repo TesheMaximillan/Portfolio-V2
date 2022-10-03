@@ -1,6 +1,6 @@
 {
   "user": {
-    "summary": "Full-stack web developer with a love for clean code. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently.",
+    "summary": "Hello there, my name is Teshome Kurabachew, I'm a full-stack web developer, software engineer and devops engineer. My goal is to deliver high quality services to my clients. I have been working morethan 1300+ hours in a remote environment by mastering algorithms, data-structures and full-stack development. For detailed information please continue reading. Also, don't forget to reach out to me if you're interested in my profile. ",
     "title": "Software Engineer",
     "name": "Teshome Kurabachew",
     "subtitle": "Full-Stack Web Developer",
@@ -293,7 +293,7 @@
       "name": " Trekker",
       "repository": "https://github.com/dewslyse/trekker-front-end",
       "live": "https://mv-trekker.netlify.app/",
-      "description": "Book your next adventure 🚢 using the Trekker app. Trekker offers a selection of the best adventure destinations around the globe 🌍 Built with: React, Redux, Ruby on Rails.",
+      "description": "A web application that allows users to search for hiking trails in the Uganda. Users can also create an account and book their favorite places. A backend API was built with Ruby on Rails and the frontend was built with React and Redux.",
       "screenshots": [
         {
           "id": 1,
@@ -328,11 +328,11 @@
       "name": "Favourite Meals",
       "repository": "https://github.com/AminaBuhari/Favourite-meal",
       "live": "https://teshemaximillan.github.io/webpack-test/",
-      "description": "A web app that allows users to search for their favourite meals. The app is built with JavaScript and uses the MealDB API to fetch the data. The app is deployed on GitHub pages.",
+      "description": "A web application that allows users to create an account and add their favorite dishes, comment on any food they like and also  like the food as a recommendation for other users. The app takes data from an external API source and stores the user's data in another API. The project is a final project created only  by the JavaScript language.",
       "screenshots": [
         {
           "id": 1,
-          "image": "https://user-images.githubusercontent.com/51437483/191374488-b9532cec-3e2a-4182-8833-25ae15ca2a74.png"
+          "image": "https://user-images.githubusercontent.com/51437483/193549456-60fc58d7-478a-4bd6-b055-927aa8fd2be5.png"
         },
         {
           "id": 2,
@@ -362,7 +362,7 @@
       "name": "Space Travelers' Hub",
       "repository": "https://github.com/TesheMaximillan/Space-Travelere-s-Hub",
       "live": "https://space-travelers-app-ht.herokuapp.com/myprofiles",
-      "description": "In this project we are worked with the real live data from the SpaceX API. And in this project we build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+      "description": "A web application that allows users to book rockets and join missions. The project takes data from external API source and it can able to store the users data in another API.",
       "screenshots": [
         {
           "id": 1,
@@ -396,7 +396,7 @@
       "name": "Art Blog App",
       "repository": "https://github.com/TesheMaximillan/ArtBlog",
       "live": "https://teshemaximillan.github.io/ArtBlog/",
-      "description": " An Art blog website that encourages artists to post their designs and also helps them to participate in different events especially related to the art gallery, and also gives them a chance to present their works at the event show. However, my main intention is to use HTML5/CSS and JavaScript best practices and apply these concepts which is I learned from the Microverse Training - Module 1 to this amazing website.",
+      "description": " An Art blog website that encourages artists to post their designs and also helps them to participate in different events especially related to the art gallery, and also gives them a chance to present their works at the event show. The project is built by HTML5/CSS and JavaScript.",
       "screenshots": [
         {
           "id": 1,

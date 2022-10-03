@@ -58,6 +58,7 @@ const Profile = () => {
           </div>
           <div className={tagline}>
             <p>{user.summary}</p>
+            <span>☕</span>
           </div>
           <div className={profileOptions}>
             <a href="#contact">
@@ -83,7 +84,7 @@ const Profile = () => {
             <button type="button" onClick={() => window.open('https://github.com/TesheMaximillan')}>
               <FaGithub />
             </button>
-            <button type="button" onClick={() => window.open('https://teshome.kurabachew@gmail.com')}>
+            <button type="button" onClick={() => window.open('mailto:teshome.kurabachew@gmail.com')}>
               <SiGmail />
             </button>
             <button type="button" onClick={() => window.open('https://twitter.com/TesheKura')}>
