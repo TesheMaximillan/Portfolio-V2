@@ -4,9 +4,13 @@
   width: 100%;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   box-shadow: rgba(255, 160, 0, 0.18) 0 2px 4px;
-  background-image: linear-gradient(to right bottom,
+  background-image:
+    linear-gradient(
+      to right bottom,
       rgba(25, 25, 35, 0.9),
-      rgba(30, 30, 40, 0.9)), url(../assets/images/background.jpg);
+      rgba(30, 30, 40, 0.9)
+    ),
+    url(../assets/images/background.jpg);
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   position: relative;
@@ -21,7 +25,7 @@
   }
 
   &:hover {
-    transform: translatex(-5px);
+    transform: translateX(-5px);
   }
 
   &Header {
@@ -35,8 +39,6 @@
     img {
       width: 100%;
       height: 100%;
-      object-fit: auto;
-
       border-radius: 1rem;
 
       @media (max-width: 1100px) {
@@ -51,9 +53,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right bottom,
+    background-image:
+      linear-gradient(
+        to right bottom,
         rgba(25, 25, 35, 0.7),
-        rgba(30, 30, 40, 0.7));
+        rgba(30, 30, 40, 0.7)
+      );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,9 +80,13 @@
   }
 
   &Main {
-    background-image: linear-gradient(to right bottom,
+    background-image:
+      linear-gradient(
+        to right bottom,
         rgba(25, 25, 35, 0.9),
-        rgba(30, 30, 40, 0.9)), url(../assets/images/background.jpg);
+        rgba(30, 30, 40, 0.9)
+      ),
+      url(../assets/images/background.jpg);
     padding: 5rem;
     width: 60%;
     overflow: hidden;
@@ -164,17 +173,17 @@
         span {
           margin-left: 1rem;
         }
-    
+
         &:hover {
           background-color: var(--color-secondary-dark);
           color: var(--color-primary-dark);
           border: 2px solid var(--color-primary-dark);
-    
+
           &:active {
             transform: scale(0.95);
           }
         }
-        
+
         @media (max-width: 550px) {
           width: 100%;
           margin: 1rem 0;

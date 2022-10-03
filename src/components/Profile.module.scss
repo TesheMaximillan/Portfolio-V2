@@ -10,10 +10,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right bottom,
+    background-image:
+      linear-gradient(
+        to right bottom,
         rgba(25, 25, 35, 0.9),
-        rgba(30, 30, 40, 0.9)), url(../assets/images/background.jpg);
-    ;
+        rgba(30, 30, 40, 0.9)
+      ),
+      url(../assets/images/background.jpg);
     background-size: cover;
     background-position: center;
 
@@ -119,7 +122,6 @@
           width: 100% !important;
         }
       }
-
 
       .profileDownload {
         margin: 1rem 0;
