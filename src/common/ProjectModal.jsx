@@ -58,7 +58,7 @@ const ProjectModal = forwardRef((props, ref) => {
           >
             <ModalHeader project={display.project} />
           </motion.div>
-          <div className={modalBtnContainer}>
+          <motion.div className={modalBtnContainer}>
             <button type="button" className={modalBtn} onClick={() => window.open(display.project.live)}>
               🚀 Live Demo
             </button>
@@ -67,12 +67,12 @@ const ProjectModal = forwardRef((props, ref) => {
               {' '}
               Repository
             </button>
-          </div>
+          </motion.div>
 
-          <div className={modalDescription}>
+          <motion.div className={modalDescription}>
             <h1>About the Project</h1>
             <p>{display.project.description}</p>
-          </div>
+          </motion.div>
 
           <Footer />
         </motion.div>

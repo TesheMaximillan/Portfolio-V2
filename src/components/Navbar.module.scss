@@ -1,27 +1,22 @@
 .nav {
-  background-color: var(--color-primary-dark);
-  padding: 3rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 
   &Container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5rem;
-  }
-
-  &Main {
-    background-color: var(--color-primary);
-    border: 2px solid var(--color-primary);
-    border-radius: 0.5rem;
-    width: 100%;
-    padding: 1rem 3rem;
-    color: var(--warm-grey);
+    background-color: var(--color-primary-dark);
+    padding: 2rem 0;
   }
 
   &Btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
     color: var(--color-primary-dark);
     background-color: var(--warm-grey);
     font-weight: 700;
@@ -84,29 +79,11 @@
   .nav {
     display: flex;
     align-items: flex-start;
+    padding-left: 0;
 
     &Container {
       flex-direction: column;
       align-items: flex-start;
-      margin-right: 1.5rem;
-    }
-
-    &Main {
-      width: calc(100% - 15rem);
-    }
-
-    &Btn {
-      margin: 0.1rem 0;
-      justify-content: flex-start;
-    }
-  }
-}
-
-@media (max-width: 550px) {
-  .nav {
-    padding-left: 0;
-
-    &Container {
       margin-bottom: 1rem;
     }
 
@@ -115,12 +92,18 @@
     }
 
     &Btn {
+      margin: 0.1rem 0;
+      justify-content: flex-start;
       max-width: 4rem;
       color: transparent;
 
       .btnIcon {
         opacity: 1;
         color: var(--white);
+      }
+
+      .btnText {
+        display: none;
       }
     }
   }

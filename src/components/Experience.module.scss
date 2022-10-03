@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1320px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience {
+    background-color: var(--color-primary-dark);
+    width: 48%;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+
+    @media (max-width: 1320px) {
+      width: 100%;
+    }
+
+    &Company {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0.2rem;
+      color: var(--light-grey);
+      padding-bottom: 1rem;
+    }
+
+    &Position {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &Title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0.2rem;
+      color: var(--warm-grey);
+      padding-bottom: 1rem;
+    }
+
+    &Date {
+      border-radius: 3rem;
+      background-color: var(--color-primary-2);
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+    }
+
+    &Text {
+      margin: 3rem 0;
+      padding: 2rem;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      color: var(--light-grey);
+      text-align: justify;
+      background-color: var(--color-primary);
+
+      p {
+        margin-bottom: 2rem;
+
+        &::before {
+          content: "⦿";
+          color: var(--color-secondary-dark);
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    text-align: center;
+  }
+}

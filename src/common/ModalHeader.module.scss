@@ -1,4 +1,10 @@
 .modalHeader {
+  background-color: var(--color-primary);
+  padding: 3rem 4rem 5rem 4rem;
+  margin: 3rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+
   &Title {
     font-size: 3rem;
     font-weight: 700;

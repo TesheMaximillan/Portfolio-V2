@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import data from '../../assets/data.json';
 
 const {
-  user, about, social, experience, education, honors, skills, projects, softSkills, tools,
+  user, about, social, experience, education, honors, skills, projects,
 } = JSON.parse(JSON.stringify(data));
 
 const mainReducer = createSlice({
@@ -13,9 +13,7 @@ const mainReducer = createSlice({
     about,
     education,
     experience,
-    tools,
     skills,
-    softSkills,
     projects,
     social,
     honors,

@@ -52,16 +52,14 @@
 
   &Container {
     width: 100%;
-    height: 100%;
     padding: 2rem;
-    margin: 5rem 0;
     color: var(--light-grey);
-    background-color: var(--color-primary);
     border-radius: 0.2rem;
   }
 
   &Description {
     h1 {
+      text-align: start;
       font-size: 2.5rem;
       font-weight: 700;
       line-height: 1.2;
@@ -69,6 +67,12 @@
       color: var(--light-grey);
       border-bottom: 1px solid var(--color-secondary-dark);
       padding-bottom: 1rem;
+    }
+
+    @media (max-width: 550px) {
+      h1 {
+        font-size: 2rem;
+      }
     }
 
     margin: 0 auto;
@@ -92,39 +96,6 @@
     box-shadow: rgba(255, 165, 0, 0.4) 0 2px 4px, rgba(255, 165, 0, 0.3) 0 7px 13px -3px, rgba(255, 165, 0, 0.2) 0 -3px 0 inset;
   }
 
-  @media (max-width: 929px) {
-    &BtnContainer {
-      margin-top: 10rem;
-    }
-  }
-
-  @media (max-width: 768px) {
-    &BtnContainer {
-      margin-top: 0;
-    }
-  }
-
-  @media (max-width: 490px) {
-    &BtnContainer {
-      margin-top: 10rem;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    &Btn {
-      margin: 0.5rem 0;
-    }
-  }
-
-  @media (max-width: 415px) {
-    &BtnContainer {
-      width: 100%;
-      margin: 0 1rem;
-      margin-top: 15rem;
-    }
-  }
-
   &Btn {
     width: 15rem;
     padding: 1rem 0;
@@ -146,6 +117,20 @@
       &:active {
         transform: scale(0.95);
       }
+    }
+  }
+
+  @media (max-width: 490px) {
+    &BtnContainer {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 95%;
+    }
+
+    &Btn {
+      margin: 0.5rem 0;
+      width: 100%;
     }
   }
 }

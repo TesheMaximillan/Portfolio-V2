@@ -1,57 +1,96 @@
 .aboutt {
-  &Btn {
-    display: none;
-  }
-
   &Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: var(--color-primary-dark);
     color: var(--light-grey);
     font-size: 1.4rem;
-    padding: 3rem;
+    padding: 2rem;
     margin-bottom: 1rem;
 
-    &Tools {
-      margin-left: 5rem;
+    @media (max-width: 1200px) {
+      flex-direction: column-reverse;
+    }
 
-      p::before {
-        content: '✔️ ';
+    &Text {
+      margin-bottom: 2rem;
+      width: 48%;
+      text-align: justify;
+      align-self: center;
+      background-color: var(--color-primary);
+      height: 100%;
+      padding: 2rem;
+      border-radius: 0.5rem;
+
+      @media (max-width: 1100px) {
+        width: 60%;
+      }
+
+      @media (max-width: 768px) {
+        width: 90%;
+      }
+    }
+
+    &Skills {
+      width: 48%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .skill {
+        width: 50%;
+        padding: 1rem;
+        background-color: var(--color-primary);
+        border: 5px solid var(--color-primary-dark);
+
+        div {
+          display: flex;
+          flex-wrap: wrap;
+          background-color: var(--color-primary-dark);
+          padding: 1rem;
+          border-radius: 0.5rem;
+
+          p {
+            margin-left: 1rem;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-style: italic;
+            border: 2px double var(--color-secondary-dark);
+          }
+        }
+
+        h3 {
+          font-size: 1.8rem;
+          padding: 1rem;
+          background-color: var(--color-primary-dark);
+          border-radius: 0.5rem;
+        }
+
+        @media (max-width: 550px) {
+          width: 100%;
+
+          &:not(:last-child) {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+
+      @media (max-width: 1100px) {
+        width: 90%;
+        align-self: center;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
       }
     }
   }
 
-  &Text {
-    margin-bottom: 2rem;
-    text-align: justify;
-  }
-}
-
-@media (max-width: 1200px) {
-  .aboutt {
-    &Btn {
-      display: block;
-      width: 100%;
-      margin-bottom: 1rem;
-      background-color: var(--color-secondary-dark);
-      border: none;
-      border-radius: 0.2rem;
-      padding: 1rem 0;
-      color: var(--white);
-      font-family: inherit;
-      font-weight: 700;
-      font-size: 1.4rem;
-    }
-
-    &Container {
-      max-height: 30rem;
-      overflow: hidden;
-    }
-
-    .btnLess {
-      max-height: 100%;
-    }
-
-    .btnMore {
-      max-height: 30rem;
+  @media (max-width: 1200px) {
+    h2 {
+      text-align: center;
     }
   }
 }
